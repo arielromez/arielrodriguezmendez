@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Rodriguez Mendez</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="max-width-container header-content">
+            <div class="project-hero-content">
+                <a href="#"><span class="nowrap">Ariel Rodriguez Mendez</span></a><span class="nowrap"> &mdash; <span class="description">Graphic Designer</span></span>
+            </div>
+            <div>
+                <a href="pages/info.html" class="more-info-link" aria-label="More information" title="More information">
+                    <button type="button" aria-hidden="true" tabindex="-1">
+                        <img src="images/icons/more.svg" alt="more information icon">
+                    </button>
+                </a>
+            </div>
+        </div>        
+    </header>
+    <!-- <nav class="nav-content">
+        <ul class="nav-list">
+            <li>
+                <a href="#work" aria-label="Go to work section" title="Work">Work</a>
+            </li>
+            <li>
+                <a href="#art" aria-label="Art section" title="Art section">Art</a>
+            </li>
+        </ul>
+           
+        <div class="filter-dropdown nav-content">
+            <button class="filter-toggle" id="filterToggle">Filter by: All works ▲</button>
+            <div class="filter-options" id="filterOptions">
+                <div class="filter-option active" data-category="all">All works</div>
+                <div class="filter-option" data-category="brand">Brand</div>
+                <div class="filter-option" data-category="editorial">Editorial</div>
+                <div class="filter-option" data-category="experiential">Experiential</div>
+            </div>
+        </div>
+    </nav> -->
+    <section class="slideshow" aria-label="Brand identity slideshow">
+        <div class="slideshow-work-link">
+            <span class="description">Graphic Design</span>
+            <div>
+                <a href="#work" class="chevron-down" aria-label="Go to work section" title="Go To Work">
+                    <button type="button" aria-hidden="true" tabindex="-1">
+                        <img src="images/icons/chevron-down.svg" alt="chevron down icon">
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="slideshow-track">
+            <div class="slideshow-slide"><img src="images/portfolio/brand/tete-by-doublete/logotype.svg" alt="Tete by Doublete"></div>
+            <div class="slideshow-slide"><img src="images/portfolio/brand/savia/icon-logotype-vertical.svg" alt="Savia"></div>
+            <div class="slideshow-slide"><img src="images/portfolio/brand/cubacel-tur/cubacel-tur.svg" alt="Cubacel Tur"></div>
+            <div class="slideshow-slide"><img src="images/portfolio/brand/nuestra-america-podcast/podcast-profile-picture.webp" alt="Nuestra America Podcast"></div>
+            <div class="slideshow-slide"><img src="images/portfolio/brand/king-woodworker/monogram.svg" alt="King Woodworker"></div>
+            <div class="slideshow-slide"><img src="images/portfolio/brand/la-bella-vida/monogram.svg" alt="La Bella Vida"></div>
+            <div class="slideshow-slide"><img src="images/portfolio/brand/dropless/dropless-logo-animated.svg" alt="Dropless"></div>
+        </div>
+    </section>
+    <main>
+        <section id="work">
+            <ul class="nav-list">
+                <li>
+                    Selected Works
+                </li>
+            </ul>
+            <ul class="feature-grid">
+                <li class="feature-item wide" data-category="editorial">
+                    <a href="pages/cine-cubano-magazine.html">
+                        <figure>
+                                <img src="images/portfolio/editorial/cine-cubano-magazine/cine-cubano-magazine.webp" alt="Cine Cubano #201-202 Magazine cover" class="cover-img editorial-img">
+                                <figcaption class="feature-caption">
+                                <p>Cine Cubano Magazine</p>
+                                <ul class="feature-caption-list">
+                                    <li>Art Direction</li>
+                                    <li>Editorial Design</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item big" data-category="brand">
+                    <a href="pages/tete-by-doublete.html">
+                        <figure>
+                            <img src="images/portfolio/brand/tete-by-doublete/prototype.webp" alt="Cover image" class="cover-img editorial-img">
+                            <figcaption class="feature-caption">
+                                Tete by Doublete
+                                <ul class="feature-caption-list">
+                                    <li>Product Design</li>
+                                    <li>Naming</li>
+                                    <li>Brand Identity</li>
+                                    <li>Packaging</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item" data-category="brand">
+                    <a href="pages/savia.html">
+                        <figure class="figure-img">
+                            <object data="images/portfolio/brand/savia/icon.svg" type="image/svg+xml" class="cover-img experiential-img" aria-label="Savia animated icon">
+                                <img src="images/portfolio/brand/savia/icon.svg" alt="Savia icon" class="cover-img experiential-img">
+                            </object>
+                            <figcaption class="feature-caption">Savia
+                                <ul class="feature-caption-list">
+                                    <li>Brand Identity</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item" data-category="brand">
+                    <a href="pages/cubacel-tur.html">
+                        <figure>
+                                <img src="images/portfolio/brand/cubacel-tur/2-sim-card.webp" alt="Sun animation" class="cover-img editorial-img">   
+                            <figcaption class="feature-caption">Cubacel Tur
+                                <ul class="feature-caption-list">
+                                    <li>Brand Identity</li>   
+                                    <li>Campaign</li>
+                                    <li>Packaging</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item" data-category="brand">
+                    <a href="pages/king-woodworker.html">
+                        <figure>
+                            <img src="images/portfolio/brand/king-woodworker/monogram.svg" alt="Cover image" class="fill-img experiential-img">
+                            <figcaption class="feature-caption">King Woodworker
+                                <ul class="feature-caption-list">
+                                    <li>Brand Identity</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item wide" data-category="experiential">
+                    <a href="pages/naval-modeling-hall.html">
+                        <figure>
+                                <img src="images/portfolio/experiential/naval-modelling-hall/transatlantic-model-wall.webp" alt="Naval Modeling Hall Interior View" class="cover-img experiential-img">    
+                                <figcaption class="feature-caption">
+                                    Naval Modeling Hall  
+                                <ul class="feature-caption-list">
+                                    <li>Environmental Graphics</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item" data-category="brand">
+                    <a href="pages/la-bella-vida.html">
+                        <figure>
+                            <img src="images/portfolio/brand/la-bella-vida/logo.svg" alt="Cover image" class="cover-img experiential-img">
+                            <figcaption class="feature-caption">La bella vida
+                                <ul class="feature-caption-list">
+                                    <li>Brand Identity</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item big" data-category="editorial">
+                    <a href="pages/cuban-screenplay-collection.html">
+                        <figure>
+                            <img src="images/portfolio/editorial/cuban-screenplay-collection/cuban-screenplay-collection.webp" alt="Cover image" class="cover-img">
+                            <figcaption class="feature-caption">Cuban Screenplay Collection
+                                <ul class="feature-caption-list">
+                                    <li>Editorial Design</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                 <li class="feature-item" data-category="brand">
+                    <a href="pages/nuestra-america-podcast.html">
+                        <figure>
+                            <img src="images/portfolio/brand/nuestra-america-podcast/podcast-animation.svg" alt="Cover image" class="cover-img editorial-img">
+                            <figcaption class="feature-caption">Nuestra America Podcast
+                                <ul class="feature-caption-list">
+                                    <li>Brand Identity</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                 <li class="feature-item" data-category="brand">
+                    <a href="pages/dropless.html">
+                        <figure>
+                                <img src="images/portfolio/brand/dropless/dropless-logo-animated.svg" alt="Dropless logo" class="cover-img">    
+                                <figcaption class="feature-caption">
+                                Dropless
+                                <ul class="feature-caption-list">
+                                    <li>Brand Identity</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="feature-item wide" data-category="experiential">
+                    <a href="pages/mural-painting-museum.html">
+                        <figure>
+                            <img src="images/portfolio/experiential/mural-painting-museum/extration.webp" alt="Cover image" class="cover-img experiential-img">
+                            <figcaption class="feature-caption">Mural Painting Museum
+                                <ul class="feature-caption-list">
+                                    <li>Environmental Graphics</li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>        
+        </section>
+    </main>
+    <footer>
+        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="img-grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1536">
+  <rect width="2048" height="1536" fill="#f7931e" opacity=".5"/>
+  <g opacity=".5">
+    <rect y="384" width="2048" height="768" fill="#f0f"/>
+  </g>
+  <rect x="512" width="1024" height="1536" fill="aqua" opacity=".5"/>
+  <rect width="512" height="384" fill="#ff0" opacity=".5"/>
+  <rect x="1536" y="1152" width="512" height="384" fill="#ff0" opacity=".5"/>
+</svg>

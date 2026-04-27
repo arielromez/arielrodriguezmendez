@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2048 1536">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#glass-gradient);
+      }
+
+      .st1 {
+        fill: #fff;
+        stroke: #b3b3b3;
+        stroke-miterlimit: 10;
+      }
+      
+      .glass-effect {
+        fill: url(#shine-overlay);
+        mix-blend-mode: overlay;
+      }
+    </style>
+    
+    <!-- Base dark glass gradient -->
+    <radialGradient id="glass-gradient" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#000054;stop-opacity:1" />
+      <stop offset="85%" style="stop-color:#000012;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Animated shine overlay for glass effect -->
+    <linearGradient id="shine-overlay" x1="-100%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0" />
+      <stop offset="40%" style="stop-color:#ffffff;stop-opacity:0.5" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#ffffff;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <g id="bg">
+    <rect class="st0" width="2048" height="1536"/>
+  </g>
+  <g id="logo">
+    <g id="monogram">
+      <path id="Save_area" class="st1" d="M1024,256h0c282.8,0,512,229.2,512,512h0c0,282.8-229.2,512-512,512h0c-282.8,0-512-229.2-512-512h0c0-282.8,229.2-512,512-512Z"/>
+      <path id="Logo" class="st0" d="M1237.4,704.1c-24.7-49.5-74.9-60.8-125.9-4.5,21.9-43.9,60.8-125.7,29.8-187.6-53.3-106.7-234.7-64-298.7,64-21.3,42.6-53.3,128-21.3,192h64c-32-64-64-128-32-192,53.3-106.7,202.7-106.7,256,0,10.7,21.3,21.3,64-10.7,128-4.2,8.4-17.7,35.4-31.4,62.8-.2.4-.4.8-.6,1.2h0c-10.1,20.1-20.2,40.3-26.7,53.3l-90.7-181.3h-64l128,256h10.7l21.3-64,32-64c32-64,95.9-64.1,128,0,32,64,32,128,0,192-85.3,170.7-288,128-384-64l-32,64c96,192,341.3,170.6,426.7,0,64-128,42.7-213.3,21.4-255.9h.1,0Z"/>
+    </g>
+  </g>
+  <g id="glass">
+    <rect class="glass-effect" x="0" y="0" width="2048" height="1536" />
+    <!-- 360 degree rotation animation -->
+    <animateTransform attributeName="transform" type="rotate" values="0 1024 768;360 1024 768" dur="4s" repeatCount="indefinite" />
+  </g>
+</svg>

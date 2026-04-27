@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2047.999999999998181 1536">
+  <defs>
+    <linearGradient id="linear-gradient" x1="407.1884400754534" y1="933.274143203800122" x2="1640.811593334422696" y2="602.725815523724236" gradientUnits="userSpaceOnUse" gradientTransform="rotate(15 1024 768)">
+      <animateTransform attributeName="gradientTransform" type="rotate" values="-15 1024 768;15 1024 768;15 1024 768;-15 1024 768" keyTimes="0;0.35;0.65;1" dur="4s" repeatCount="indefinite"/>
+      <stop offset=".1" stop-color="#1a8deb"/>
+      <stop offset=".3" stop-color="#00e6ff"/>
+      <stop offset=".5" stop-color="#c0ff1c"/>
+      <stop offset=".7" stop-color="#fffc1c"/>
+      <stop offset=".9" stop-color="#ff9a1c"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="0.5" y1="1" x2="0.5" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="575.533493545573947" y1="785.273748315592456" x2="704.466506247465759" y2="750.726251684408908" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="319.533493545573947" y1="785.273748315592456" x2="448.466506247465759" y2="750.726251684408908" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="831.533493545573947" y1="785.273748315590638" x2="960.466506247464849" y2="750.726251684407316" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="1087.533493545573947" y1="785.273748315594275" x2="1216.46650624746394" y2="750.726251684411181" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="1343.533493545573947" y1="785.273748315590638" x2="1472.46650624746394" y2="750.726251684407544" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="1599.533493545575766" y1="785.273748315594275" x2="1728.466506247465759" y2="750.726251684411181" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="bg">
+    <rect width="2048" height="1536" fill="#fff"/>
+  </g>
+  <g id="colors">
+    <g id="gradient">
+      <path d="M511.999999896519512,912c-79.4013671875,0-144-64.5986328125-144-144,0-79.40185546875,64.5986328125-144,144-144h1024c79.4013671875,0,144,64.59814453125,144,144,0,79.4013671875-64.5986328125,144-144,144H511.999999896519512Z" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="blue-eye">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -136.59670131091116;0 -136.59670131091116;0 0" keyTimes="0;0.35;0.65;1" dur="4s" repeatCount="indefinite"/>      
+      <circle cx="511.999999896519512" cy="905.221586747180481" r="96.000991078699371" fill="url(#New_Gradient_Swatch_1)"/>
+      <circle cx="511.999999896514055" cy="905.221586747184119" r="55.999884393743564" fill="#1a8deb"/>
+    </g>
+    <g id="cyan-eye">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -67.30526201850989;0 -67.30526201850989;0 0" keyTimes="0;0.35;0.65;1" dur="4s" repeatCount="indefinite"/>
+      <circle cx="767.999999896519512" cy="835.930147454779217" r="96.000991078699371" fill="url(#New_Gradient_Swatch_1)"/>
+      <g>
+        <path d="M767.999999896519512,893.405847956008074c-31.693359375,0-57.4775390625-25.783203125-57.4775390625-57.4755859375s25.7841796875-57.4765625,57.4775390625-57.4765625,57.4775390625,25.7841796875,57.4775390625,57.4765625-25.7841796875,57.4755859375-57.4775390625,57.4755859375Z" fill="#00e6ff"/>
+      </g>
+    </g>
+    <g id="yellow-eye">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 69.41249730397863;0 69.41249730397863;0 0" keyTimes="0;0.35;0.65;1" dur="4s" repeatCount="indefinite"/>
+      <circle cx="1279.999999896519512" cy="699.212388132290698" r="96.000991078699371" fill="url(#New_Gradient_Swatch_1)"/>
+      <g>
+        <path d="M1279.999999896519512,756.688088633521147c-31.693359375,0-57.4775390625-25.783203125-57.4775390625-57.4755859375s25.7841796875-57.4765625,57.4775390625-57.4765625,57.4775390625,25.7841796875,57.4775390625,57.4765625-25.7841796875,57.4755859375-57.4775390625,57.4755859375Z" fill="#fffc1c"/>
+      </g>
+    </g>
+    <g id="orange-eye">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 137.8148719332794;0 137.8148719332794;0 0" keyTimes="0;0.35;0.65;1" dur="4s" repeatCount="indefinite"/>
+      <circle cx="1535.999999896519512" cy="630.810013502989932" r="96.000991078699371" fill="url(#New_Gradient_Swatch_1)"/>
+      <g>
+        <path d="M1535.999999896519512,688.285714004220608c-31.693359375,0-57.4775390625-25.783203125-57.4775390625-57.4755859375s25.7841796875-57.4765625,57.4775390625-57.4765625,57.4775390625,25.7841796875,57.4775390625,57.4765625-25.7841796875,57.4755859375-57.4775390625,57.4755859375Z" fill="#ff9a1c"/>
+      </g>
+    </g>
+    <g id="green-eye">
+      <circle cx="1024.000000000002274" cy="768.624885436269324" r="96.00099107869255" fill="url(#New_Gradient_Swatch_1)"/>
+      <g>
+        <path d="M1023.999999896519512,826.1005859375c-31.693359375,0-57.4775390625-25.783203125-57.4775390625-57.4755859375s25.7841796875-57.4765625,57.4775390625-57.4765625,57.4775390625,25.7841796875,57.4775390625,57.4765625-25.7841796875,57.4755859375-57.4775390625,57.4755859375Z" fill="#c0ff1c"/>
+      </g>
+    </g>
+    <!-- <g id="grid">
+      <g>
+        <line x1="639.999999896519512" y1="512" x2="639.999999896519512" y2="1024" fill="none" stroke="url(#linear-gradient-2)" stroke-linejoin="round"/>
+        <line x1="383.999999896519512" y1="1024" x2="383.999999896519512" y2="512" fill="none" stroke="url(#linear-gradient-3)" stroke-linejoin="round"/>
+        <line x1="895.999999896519512" y1="1024" x2="895.999999896519512" y2="512" fill="none" stroke="url(#linear-gradient-4)" stroke-linejoin="round"/>
+        <line x1="1151.999999896519512" y1="1024" x2="1151.999999896519512" y2="512" fill="none" stroke="url(#linear-gradient-5)" stroke-linejoin="round"/>
+        <line x1="1407.999999896519512" y1="1024" x2="1407.999999896519512" y2="512" fill="none" stroke="url(#linear-gradient-6)" stroke-linejoin="round"/>
+        <line x1="1663.999999896519512" y1="512" x2="1663.999999896519512" y2="1024" fill="none" stroke="url(#linear-gradient-7)" stroke-linejoin="round"/>
+      </g>
+    </g> -->
+  </g>
+</svg>

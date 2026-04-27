@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="more" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <style>
+    circle {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: dotPulse 8s ease-in-out infinite;
+    }
+    
+    circle:nth-of-type(1) {
+      animation-name: dotPulseY;
+    }
+
+    circle:nth-of-type(2) {
+      animation-name: dotPulseY;
+      animation-delay: 0.12s;
+    }
+
+    
+  
+    circle:nth-of-type(4) {
+      animation-name: dotPulse;
+      animation-delay: 0.36s;
+    }
+    
+    circle:nth-of-type(3),
+    circle:nth-of-type(5) {
+      animation-name: dotPulseX;
+      animation-delay: 0.36s;
+    }
+
+    @keyframes dotPulseX {
+      0%, 100% {
+        transform: scaleX(1);
+      }
+      50% {
+        transform: scaleX(3);
+      }
+    }
+
+    @keyframes dotPulseY {
+      0%, 100% {
+        transform: scaleY(1);
+      }
+      50% {
+        transform: scaleY(3);
+      }
+    }
+
+    @keyframes dotPulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1);
+      }
+    }
+  </style>
+  <circle cx="11.999999999999091" cy="17.999999999999091" r="1.5" fill="blue"/>
+  <circle cx="11.999999999999091" cy="5.999999999999091" r="1.5" fill="blue"/>
+  <circle cx="18" cy="12.000000043294676" r="1.5" fill="blue"/>
+  <circle cx="11.999999999999091" cy="12.000000043294676" r="1.5" fill="blue"/>
+  <circle cx="5.999999906843186" cy="12.000000043294676" r="1.5" fill="blue"/>
+</svg>

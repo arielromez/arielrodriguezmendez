@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2047.999999999998181 1536">
+  <defs>
+    <linearGradient id="linear-gradient" x1="422.628272419124187" y1="929.137051579678882" x2="1625.371599373534082" y2="606.862948420322937" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#1a8deb"/>
+      <stop offset=".3" stop-color="#00e6ff"/>
+      <stop offset=".5" stop-color="#c0ff1c"/>
+      <stop offset=".7" stop-color="#fffc1c"/>
+      <stop offset=".9" stop-color="#ff9a1c"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="511.999999896519512" y1="1001.221586747178662" x2="511.999999896519512" y2="809.221586747178662" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1-2" data-name="New Gradient Swatch 1" x1="767.999999866719008" y1="931.930147454775579" x2="767.999999866719008" y2="739.930147454774669" xlink:href="#New_Gradient_Swatch_1"/>
+    <linearGradient id="New_Gradient_Swatch_1-3" data-name="New Gradient Swatch 1" x1="1279.999999896519512" y1="795.211000689218054" x2="1279.999999896519512" y2="603.213775575356522" xlink:href="#New_Gradient_Swatch_1"/>
+    <linearGradient id="New_Gradient_Swatch_1-4" data-name="New Gradient Swatch 1" x1="1535.999999896519512" y1="726.808626059916605" x2="1535.999999896519512" y2="534.811400946055983" xlink:href="#New_Gradient_Swatch_1"/>
+    <linearGradient id="New_Gradient_Swatch_1-5" data-name="New Gradient Swatch 1" x1="1024.000000000005457" y1="864.623497993195997" x2="1024.000000000005457" y2="672.626272879334465" xlink:href="#New_Gradient_Swatch_1"/>
+  </defs>
+  <g id="bg">
+    <rect width="2047.999999999998181" height="1536" fill="#fff"/>
+  </g>
+  <g id="colors">
+    <g id="gradient">
+      <rect x="383.999999896519512" y="640.000000017606339" width="1279.999872098807828" height="255.999999964787321" rx="127.999872095286293" ry="127.999872095286293" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="blue-eye">
+      <circle cx="511.999999896519512" cy="905.221586747181391" r="96.002378556142503" fill="url(#New_Gradient_Swatch_1)"/>
+      <circle cx="511.999999896514055" cy="905.221586747184119" r="55.999306271671045" fill="#1a8deb"/>
+    </g>
+    <g id="cyan-eye">
+      <circle cx="767.99999986671537" cy="835.93014745477376" r="95.999999999999091" fill="url(#New_Gradient_Swatch_1-2)"/>
+      <circle cx="767.999999866717189" cy="835.930147454775579" r="55.999776261204026" transform="translate(-366.149883853848678 787.896279448256792) rotate(-45.000000000000014)" fill="#00e6ff"/>
+    </g>
+    <g id="yellow-eye">
+      <circle cx="1279.999999896519512" cy="699.212388132290926" r="96.000991078699371" fill="url(#New_Gradient_Swatch_1-3)"/>
+      <circle cx="1279.999999896514055" cy="699.212388132294336" r="55.999884393744367" fill="#fffc1c"/>
+    </g>
+    <g id="orange-eye">
+      <circle cx="1535.999999896519512" cy="630.810013502990842" r="96.000991078699371" fill="url(#New_Gradient_Swatch_1-4)"/>
+      <circle cx="1535.99999989651451" cy="630.810013502994025" r="55.999884393744473" fill="#ff9a1c"/>
+    </g>
+    <g id="green-eye">
+      <circle cx="1024.000000000002274" cy="768.624885436269324" r="96.00099107869255" fill="url(#New_Gradient_Swatch_1-5)"/>
+      <circle cx="1023.999999999999091" cy="768.624885436273416" r="55.999884393741972" fill="#c0ff1c"/>
+    </g>
+  </g>
+</svg>

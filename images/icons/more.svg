@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="more" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g id="y">
+    <rect x="11.500059312107972" y="6.000000490192035" width=".999881375783147" height="11.999999019613199" fill="blue"/>
+  </g>
+  <g id="x">
+    <g id="y-2" data-name="y">
+      <rect x="6.000000483630459" y="11.500059355401968" width="11.999999032744995" height=".999881375784055" fill="blue"/>
+    </g>
+  </g>
+</svg>

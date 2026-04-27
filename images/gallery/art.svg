@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1536">
+  <g id="work">
+    <g>
+      <g opacity=".8">
+        <rect x="512" y="614.399999999995998" width="1024" height="307.200000000002547" fill="blue"/>
+      </g>
+      <rect y="307.199999999998909" width="512" height="614.399999999999636" fill="blue" opacity=".5"/>
+      <rect y="614.399999999997817" width="512" height="307.200000000000728" fill="blue" opacity=".3"/>
+      <rect x="1024" width="1024" height="614.399999999997817" fill="blue"/>
+      <rect x="1536" y="614.399999999997817" width="512" height="614.399999999997817" transform="translate(3584 1843.199999999993224) rotate(180)" fill="blue" opacity=".5"/>
+      <rect x="1536" y="614.399999999997817" width="512" height="307.200000000000728" transform="translate(3584 1535.999999999996135) rotate(180)" fill="blue" opacity=".3"/>
+      <rect y="921.599999999998545" width="1024" height="614.400000000001455" transform="translate(1024 2457.599999999998545) rotate(180)" fill="blue"/>
+      <g opacity=".8">
+        <rect width="1024" height="307.199999999998909" fill="blue"/>
+      </g>
+      <g opacity=".8">
+        <rect x="1024" y="1228.799999999999272" width="1024" height="307.200000000000728" fill="blue"/>
+      </g>
+      <rect x="512" y="307.199999999998909" width="512" height="614.399999999999636" fill="blue" opacity=".5"/>
+      <rect x="1024" y="614.399999999997817" width="512" height="614.400000000001455" transform="translate(2560 1843.19999999999709) rotate(180)" fill="blue" opacity=".5"/>
+    </g>
+  </g>
+</svg>

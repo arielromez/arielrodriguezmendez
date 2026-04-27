@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 2024 1512" width="100%" height="100%">
+
+  <!-- Slide 1: work.svg — visible first, fades out, then back in -->
+  <image href="work.svg" x="0" y="0" width="2024" height="1512">
+    <animate
+      attributeName="opacity"
+      values="1;1;0;0;1;1"
+      keyTimes="0;0.35;0.45;0.85;0.95;1"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </image>
+
+  <!-- Slide 2: art.svg — starts hidden, fades in while slide 1 is out -->
+  <image href="art.svg" x="0" y="0" width="2024" height="1512">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.35;0.45;0.85;0.95;1"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </image>
+
+</svg>

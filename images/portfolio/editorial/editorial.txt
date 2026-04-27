@@ -1,0 +1,13 @@
+a specialized branch of graphic design focused on the layout, typography, and visual arrangement of multi-page publications—both print and digital—such as magazines, newspapers, books, and blogs
+
+Key Components of Editorial Design:
+	Typography & Hierarchy: Selecting fonts and arranging them to guide the reader's attention from headlines to body text.
+	Layout & Grids: Using structured frameworks to create consistent, organized pages, while managing white space to improve flow.
+	Visual Content: Integrating images, illustrations, and infographics that support the narrative and enhance engagement.
+	Pacing: Managing the rhythm of a publication, such as alternating long articles with image-heavy spreads. 
+
+Platforms:
+	Print: Magazines, newspapers, books, brochures.
+	Digital: E-books, blogs, digital magazines, online news platforms. 
+	
+The goal of editorial design is to create a compelling visual experience that supports the editorial message, making complex information easier to digest. 

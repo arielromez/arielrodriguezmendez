@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2024.00048828125 1512">
+  <g id="work">
+    <g>
+      <rect y="307.2001953125" width="488" height="283.19970703125" fill="blue"/>
+      <rect y="614.39990234375" width="488" height="283.19970703125" fill="blue"/>
+      <rect x="1024" width="1000.00048828125" height="590.39990234375" fill="blue"/>
+      <rect x="1536" y="921.599609375" width="488.00048828125" height="283.2001953125" fill="blue"/>
+      <rect x="1536" y="614.39990234375" width="488.00048828125" height="283.19970703125" fill="blue"/>
+      <rect y="921.599609375" width="1000" height="590.400390625" fill="blue"/>
+      <rect width="1000" height="283.2001953125" fill="blue"/>
+      <rect x="1024" y="1228.7998046875" width="1000.00048828125" height="283.2001953125" fill="blue"/>
+      <rect x="512" y="307.2001953125" width="488" height="283.19970703125" fill="blue"/>
+      <rect x="1024" y="921.599609375" width="488" height="283.2001953125" fill="blue"/>
+      <rect x="512" y="614.39990234375" width="1000" height="283.19970703125" fill="blue"/>
+    </g>
+  </g>
+</svg>
