@@ -597,7 +597,6 @@ main {
     min-height: 100vh;
     flex-grow: 1;
     margin: 0 auto;
-    padding-top: var(--header-height);
 }
 
 
