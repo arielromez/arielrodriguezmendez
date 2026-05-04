@@ -247,8 +247,30 @@ document.addEventListener('DOMContentLoaded', initCloseLinks);
 let lastScrollTop = 0;
 const header = document.querySelector('header');
 
+const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('/index.html');
+
+function updateHeaderExpandedState(scrollTop) {
+    if (!header || !isIndexPage) {
+        return;
+    }
+
+    if (scrollTop <= 0) {
+        header.classList.add('header-expanded');
+    } else {
+        header.classList.remove('header-expanded');
+    }
+}
+
+updateHeaderExpandedState(window.pageYOffset || document.documentElement.scrollTop);
+
 window.addEventListener('scroll', function() {
+    if (!header) {
+        return;
+    }
+
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    updateHeaderExpandedState(scrollTop);
     
     if (scrollTop > lastScrollTop && scrollTop > 100) {
         // Scrolling down - hide header
