@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', initCloseLinks);
 let lastScrollTop = 0;
 const header = document.querySelector('header');
 
-const isIndexPage = window.location.pathname === '/' || window.location.pathname.endsWith('/index.html');
+const isIndexPage = document.getElementById('work') !== null;
 
 function updateHeaderExpandedState(scrollTop) {
     if (!header || !isIndexPage) {
