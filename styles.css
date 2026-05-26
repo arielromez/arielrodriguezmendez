@@ -309,7 +309,7 @@ figcaption.feature-caption {
     flex-direction: column;
     padding: calc(var(--padding) * 2);
     gap: var(--gap);
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .feature-text p {
@@ -317,6 +317,12 @@ figcaption.feature-caption {
     color: var(--text-color);
     max-width: 55ch;
     font-weight: 400;
+    animation: textBounce 0.6s ease-in-out;
+}
+
+.feature-text h1 {
+    font-size: var(--MF);
+    color: var(--text-color);
     animation: textBounce 0.6s ease-in-out;
 }
 

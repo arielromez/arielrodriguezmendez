@@ -18,12 +18,19 @@
       transform-origin: 50% 50%;
       animation: rotate45 1s steps(2, end) infinite;
     }
+    #sim-flash-bg {
+      animation: simFlashOpacity 1s steps(2, end) infinite;
+    }
     #sim_card rect, #sim_card path {
       stroke-width: 0.5;
     }
     @keyframes rotate45 {
       0%   { transform: rotate(0deg); }
       100% { transform: rotate(90deg); }
+    }
+    @keyframes simFlashOpacity {
+      0%   { opacity: .8; }
+      100% { opacity: 1; }
     }
 
     <!-- #dia-guides line {
@@ -66,7 +73,7 @@
   <g id="crop-image">
     <g>
       <rect x="256.000000000001819" width="1535.999999999996362" height="1535.999999999996362" fill="#8187e4" opacity=".8"/>
-      <rect width="2048" height="1535.999999999996362" fill="#8187e4" opacity=".8"/>
+      <rect id="sim-flash-bg" width="2048" height="1535.999999999996362" fill="#8187e4" opacity=".8"/>
       <g opacity=".8">
         <rect y="383.999999999999091" width="2048" height="767.999999999999091" fill="#8187e4"/>
       </g>
