@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="New_Gradient_Swatch_5" data-name="New Gradient Swatch 5" x1="-46.851251684409362" y1="337.148748315590638" x2="558.851251684407089" y2="174.85125168440689" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c0ff1c"/>
+      <stop offset=".999193572998047" stop-color="#fffc1c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="256.000014657933207" y1="432.000003148987162" x2="256.000014657933207" y2="79.999996851012838" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="icons">
+    <g>
+      <rect width="512" height="512" fill="url(#New_Gradient_Swatch_5)"/>
+      <g>
+        <g id="Path_602" data-name="Path 602">
+          <circle cx="256.000014657938664" cy="256.000000000002728" r="176.000003148988526" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="Path_602-2" data-name="Path 602">
+          <path d="M256,96.92236328125c42.4912109375,0,82.43896484375,16.546875,112.48486328125,46.5927734375s46.5927734375,69.99365234375,46.5927734375,112.48486328125-16.546875,82.43896484375-46.5927734375,112.48486328125-69.99365234375,46.5927734375-112.48486328125,46.5927734375-82.439208984375-16.546875-112.48486328125-46.5927734375c-30.0458984375-30.0458984375-46.5927734375-69.99365234375-46.5927734375-112.48486328125s16.546875-82.43896484375,46.5927734375-112.48486328125c30.045654296875-30.0458984375,69.99365234375-46.5927734375,112.48486328125-46.5927734375M256,80c-97.2021484375,0-176,78.7978515625-176,176s78.7978515625,176,176,176,176-78.7978515625,176-176-78.7978515625-176-176-176h0Z" fill="#333"/>
+        </g>
+        <path id="Path_603" data-name="Path 603" d="M256.001624957269087,149.338226111154654l-.001902331086967,106.661745564979356h85.333627528243596" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="16.00000085765296"/>
+      </g>
+    </g>
+  </g>
+</svg>

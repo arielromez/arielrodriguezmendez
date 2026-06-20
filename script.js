@@ -84,8 +84,7 @@ function initTextCarousel() {
                 'Creative designer',
                 'Visual storyteller', 
                 'Digital artist',
-                'Problem solver',
-                'Innovative thinker'
+                'Product Designer'
             ];
         }
         
