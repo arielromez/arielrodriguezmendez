@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <rect width="20" height="20" fill="rgba(0, 0, 255, 0.98)" style="rx: var(--border-radius, 5px);"/>
-  <circle cx="10" cy="10" r="7" fill="rgba(225, 225, 225, 0.9)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#111111"/>
+  <path fill="#f5f0e8" d="M32 10L14 54H22L26 45H38L42 54H50L32 10ZM29 38L32 30L35 38H29Z"/>
 </svg>
