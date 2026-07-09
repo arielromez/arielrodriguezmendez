@@ -81,9 +81,9 @@ function initTextCarousel() {
         } else {
             textOptions = [
                 'Graphic Designer',
-                'Creative designer',
-                'Visual storyteller', 
-                'Digital artist',
+                'Creative Designer',
+                'Visual Storyteller', 
+                'Digital Artist',
                 'Product Designer'
             ];
         }
