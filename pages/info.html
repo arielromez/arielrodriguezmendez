@@ -4,77 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ariel Rodriguez Mendez</title>
-    <link rel="stylesheet" href="../styles.css">
-        <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icons/Ariel_Apple_Touch_Icon_180x180.png?v=20260718b">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icons/Ariel_Favicon_32x32.png?v=20260718b">
+    <link rel="icon" type="image/png" sizes="48x48" href="../images/icons/Ariel_Favicon_Bookmark_48x48.png?v=20260718b">
+    <link rel="shortcut icon" type="image/png" href="../images/icons/Ariel_Favicon_Bookmark_48x48.png?v=20260718b">
     <script src="../script.js" defer></script>
 </head>
 <body>
-    <header>
+    <header class="header header--inner">
         <div class="max-width-container header-content">
-            <ul>
-                <li>
-                    <a href="../index.html" aria-label="Go back" title="Go back">Back</a>
-                </li>
-            </ul>
+            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
         </div>
     </header>
     <main>
         <section class="project-grid">
-            <figure class="feature-item">
-                <img src="../images/gallery/I.webp" alt="Ariel Rodriguez Mendez" class="cover-img">
+            <figure class="feature-item big">
+                <img src="../images/gallery/selfie.gif" alt="Ariel Rodriguez Mendez" class="cover-img">
                 
-                <!-- <figcaption class="feature-caption">
+                <figcaption class="feature-caption">
                     <p>Hi there</p>
-                </figcaption> -->
+                </figcaption>
             </figure>
+            <h1 class="feature-text" aria-describedby="about-summary">About me</h1>
+
             <div class="feature-text">
-                <h1 aria-describedby="about-summary">Ariel Rodríguez Méndez</h1>
-                <br> 
-                <p id="about-summary">I'm a Cuban graphic designer with over a decade of experience in visual communication, specializing in brand identity, editorial design, environmental graphics, and digital experiences.</p>
+                <p id="about-summary">I'm a graphic designer with over a decade of experience in visual communication, specializing in brand identity, editorial design, environmental graphics, and digital experiences.</p>
             </div>
                 <br>   
         </section>
         <section class="project-grid">
-            <div class="feature-text">
-                <h1>Education</h1>
-                    <ul>
-                        <li>Bachelor's Degree in Visual Communication Design
-                            <br>
-                            Higher Institute of Design in Havana | 2009-2014
-                        </li>
-                        <li>Postgraduate in Color Management in Design
-                            <br>
-                            Higher Institute of Design in Havana | 2014
-                        </li>
-                    </ul>
-                    <br>
-                    <h1>Work Experience</h1>
-                    <ul>
-                        <li>Art Director at Cine Cubano Magazine
-                            <br>
-                            Cuban Institute of Cinematographic Art and Industry (ICAIC) | 2017-2021
-                        </li>
-                        <li>Art Director at Bisiesto
-                            <br>
-                            Daily journal of The ICAIC Young Filmmakers Festival (Muestra Joven ICAIC) | 2015-2018
-                        </li>
-                    </ul>
-                    <br>
-                <p><a href="../files/Ariel-Rodriguez-Mendez-CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a></p>                    
+              <div class="feature-text">  
+                <h2>Experience</h2>
+                <ul>
+                    <li><b>Art Director at Cine Cubano Magazine</b>
+                        <br>
+                        Cuban Institute of Cinematographic Art and Industry (ICAIC)<br>2017-2021
+                    </li>
+                    <li><b>Art Director at Bisiesto</b>
+                        <br>
+                        Daily journal of The ICAIC Young Filmmakers Festival (Muestra Joven ICAIC)<br>2015-2018
+                    </li>
+                </ul>    
+                <br>
             </div>
             <div class="feature-text">
-                <h1>Contact</h1>
-                <p><a href="mailto:arielromez.info@gmail.com">arielromez.info@gmail.com</a></p>
+                <h2>Education</h2>
+                <ul>
+                    <li><h3>Bachelor's Degree in Visual Communication Design</h3>
+                        <br>
+                        Higher Institute of Design in Havana<br>2009-2014
+                    </li>
+                    <li><h3>Postgraduate in Color Management in Design</h3>
+                        <br>
+                        Higher Institute of Design in Havana<br>2014
+                    </li>
+                </ul>
+            </div>
+          
+            <div class="feature-text">
+                <h2>Links</h2>
+                    <a href="../files/Ariel-Rodriguez-Mendez-CV.pdf" target="_blank" rel="noopener">Resume</a>                    
+                    <a href="mailto:arielromez.info@gmail.com">Email</a>
             </div>
             <div class="feature-text">
-                <p>Website design and development by <span class="nowrap">Ariel Rodriguez Mendez</span>.</p>
+               <h2>About this website</h2>
+                <p>Built on a single core premise: delivering an identical visual experience across desktop and mobile with minimal design and code. It stands as a demonstration of my frontend skills and lightweight UI/UX philosophy.</p>
+                <br>
+                <ul>
+                    <li><b>Workflow</b><br>
+                        Visual Design ➔ Responsive Code</li>
+                    <li><b>Environment</b><br>
+                        Visual Studio Code</li>
+                    <li><b>Tech Stack</b><br>
+                         Semantic HTML5, Custom CSS3 and Vanilla JS.</li>
+                </ul>
             </div>
+            <!-- <div class="feature-text">
+                <p>When I'm not working, you can often find me  experimenting with digital art projects.</p>
+            </div> -->
+            <!-- <figure class="feature-item wide">
+                            <object data="../images/gallery/grids/icon-grid.svg" type="image/svg+xml" class="cover-img" aria-label="Icon grid">
+                                <img src="../images/gallery/grids/icon-grid.svg" alt="icon grid" class="cover-img">
+                            </object>
+            </figure> -->
         </section>
 
             
             
-            <!-- <button><a href="mailto:arielromez.info@gmail.com">arielromez.info@gmail.com</a></button>
-            <div class="feature-text">
+            <!-- <div class="feature-text">
                 <ul class="feature-grid">
                     <li class="wide">wide</li>
                     <li class="big">big</li>
@@ -87,20 +105,12 @@
                     <li class="regular">regular</li>
                     <li class="wide">wide</li>
                 </ul>
-            </div>  
-            <p class="feature-text feature-caption">When I'm not working, you can often find me  experimenting with digital art projects.</p>
-           <figure class="feature-item">
-                            <object data="../images/gallery/grids/icon-grid.svg" type="image/svg+xml" class="cover-img" aria-label="Icon grid">
-                                <img src="../images/gallery/grids/icon-grid.svg" alt="icon grid" class="cover-img">
-                            </object>
-            </figure>
-            <figure class="feature-item tall">
-                <img src="../images/gallery/feetie.jpeg" alt="Skateboarding" class="cover-img">
-            </figure>
-        </section>    -->
+            </div>   -->
+           
+
     </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <p>&copy; <span id="current-year"></span> <span class="nowrap">Ariel Rodriguez Mendez.</span></p>
     </footer>
 </body>
 </html>

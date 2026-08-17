@@ -1,0 +1,107 @@
+.header {
+    width: 100%;
+    height: auto;
+    z-index: 100000;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: calc(var(--padding) + 0.5rem);
+    transition: transform 0.3s ease;
+}
+
+.header.hidden {
+    transform: translateY(-100%);
+}
+
+.header-content {
+    width: max-content;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--padding);
+    transition: height 0.35s ease;
+    backdrop-filter: var(--blur-filter);
+    background:
+        linear-gradient(var(--bg-color), var(--bg-color)) padding-box,
+        var(--border-gradient) border-box;
+    padding: var(--padding);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    
+}
+
+.header--home:not(.header-expanded) .header-content {
+    padding-block: var(--padding);
+    gap: var(--padding);
+}
+
+.header--inner .header-content {
+    padding: var(--padding);
+    gap: var(--padding);
+}
+
+.header.header-expanded .header-content {
+    height: auto;
+    padding: var(--padding);
+    gap: var(--padding);
+}
+
+.header.header-expanded .header-title {
+    line-height: var(--LF-lh);
+}
+
+.header--home .header-content h2 {
+    display: none;
+    margin: 0;
+}
+
+.header--home.header-expanded .header-content h2 {
+    display: block;
+}
+
+.header-content ul {
+    width: 100%;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: row;
+    gap: var(--padding);
+    list-style: none;
+    justify-content: left;
+}
+
+.header-content li {
+    border-radius: var(--border-radius);
+    border: var(--border);
+    padding: var(--padding);
+}
+
+
+.header.header-expanded {
+    display: block;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .header--home.header-expanded .header-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .header--home.header-expanded .header-content ul {
+        flex-direction: row;
+        gap: var(--padding);
+    }
+
+    .header-content {
+        font-size: var(--MF);
+    }
+}

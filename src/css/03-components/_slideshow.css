@@ -1,0 +1,75 @@
+.slideshow {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideshow-track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.slideshow-slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: slideshow-fade 27s infinite;
+}
+
+.slideshow-slide:nth-child(1) { animation-delay:  0s; }
+.slideshow-slide:nth-child(2) { animation-delay:  3s; }
+.slideshow-slide:nth-child(3) { animation-delay:  6s; }
+.slideshow-slide:nth-child(4) { animation-delay:  9s; }
+.slideshow-slide:nth-child(5) { animation-delay: 12s; }
+.slideshow-slide:nth-child(6) { animation-delay: 15s; }
+.slideshow-slide:nth-child(7) { animation-delay: 18s; }
+.slideshow-slide:nth-child(8) { animation-delay: 21s; }
+.slideshow-slide:nth-child(9) { animation-delay: 24s; }
+
+@keyframes slideshow-fade {
+    0%     { opacity: 0; }
+    4%     { opacity: 1; }
+    14%    { opacity: 1; }
+    18%    { opacity: 0; }
+    100%   { opacity: 0; }
+}
+
+.slideshow-slide img {
+    z-index: 10999;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transform-origin: center center;
+    animation: parallax-pan 24s ease-in-out infinite;
+}
+
+.slideshow-slide:nth-child(1) img { animation-delay:  0s; }
+.slideshow-slide:nth-child(2) img { animation-delay:  3s; }
+.slideshow-slide:nth-child(3) img { animation-delay:  6s; }
+.slideshow-slide:nth-child(4) img { animation-delay:  9s; }
+.slideshow-slide:nth-child(5) img { animation-delay: 12s; }
+.slideshow-slide:nth-child(6) img { animation-delay: 15s; }
+.slideshow-slide:nth-child(7) img { animation-delay: 18s; }
+.slideshow-slide:nth-child(8) img { animation-delay: 21s; }
+
+@keyframes parallax-pan {
+    0%   { transform: scale(1.08) translateY(-2%); }
+    50%  { transform: scale(1.04) translateY(0%);  }
+    100% { transform: scale(1.08) translateY(2%);  }
+}

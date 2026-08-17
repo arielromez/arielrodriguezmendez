@@ -1,0 +1,14 @@
+footer {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--SF);
+    line-height: var(--SF-lh);
+    padding: calc(var(--padding) * 2);
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: var(--SF);
+    line-height: var(--SF-lh);
+    font-family: 'Inter', sans-serif;
+}

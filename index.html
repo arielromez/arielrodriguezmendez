@@ -14,44 +14,32 @@
     <meta name="twitter:title" content="Ariel Rodriguez Mendez">
     <meta name="twitter:image" content="https://arielrodriguezmendez.com/images/gallery/I.webp">
     <meta name="twitter:description" content="Portfolio of Ariel Rodriguez Mendez, graphic designer specializing in brand identity, editorial design, environmental graphics, and digital experiences.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/Ariel_Apple_Touch_Icon_180x180.png?v=20260718b">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/Ariel_Favicon_32x32.png?v=20260718b">
+    <link rel="icon" type="image/png" sizes="48x48" href="images/icons/Ariel_Favicon_Bookmark_48x48.png?v=20260718b">
+    <link rel="shortcut icon" type="image/png" href="images/icons/Ariel_Favicon_Bookmark_48x48.png?v=20260718b">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <!-- <nav >
-            <ul class="nav-list">
-                <li>
-                    <a href="#work" aria-label="Go to work section" title="Work">Work</a>
-                    <span class="nowrap"> &mdash; <span class="description">Graphic Design</span></span>
-                </li>
-            </ul> -->
-            <!-- <div class="filter-dropdown nav-content">
-                <button class="filter-toggle" id="filterToggle">Filter by: All works ▲</button>
-                <div class="filter-options" id="filterOptions">
-                    <div class="filter-option active" data-category="all">All works</div>
-                    <div class="filter-option" data-category="brand">Brand</div>
-                    <div class="filter-option" data-category="editorial">Editorial</div>
-                    <div class="filter-option" data-category="experiential">Experiential</div>
-                </div>
-            </div> -->
-        <!-- </nav> -->
+    <header class="header header--home">
         <div class="max-width-container header-content">
-            <ul >
-                
-                <li>
-                    <a href="#"><span class="nowrap">A</span></a><span class="nowrap"> &mdash; <span class="description">Graphic Designer</span></span>
-                </li>
-                <li class="nav-list">
-                    <span class="nowrap"> 
-                    <a href="#work" aria-label="Go to work section" title="Work">Work</a>
-                        &mdash; <span class="description">Graphic Design</span></span>
-                </li>
-                <li class="nav-list">
-                    <a href="pages/info.html" aria-label="More information" title="More information">About</a>
-                </li>
-            </ul>
+            <h1 class="header-title">
+                <a href="#"><span class="nowrap">Ariel Rodríguez Méndez</span></a>
+            </h1>
+            <h2>
+                <span class="description">Graphic Designer</span>
+            </h2>
+            <nav class="nav-list" aria-label="Main Navigation">
+                <ul>
+                    <li>
+                        <a href="#work" aria-label="Go to work section" title="Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="pages/info.html" aria-label="More information" title="More information">About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>    
     </header>
     <section class="max-width-container slideshow" aria-label="Brand identity slideshow">
@@ -69,16 +57,15 @@
     </section>
     <main>
         <section id="work">
+            <h2 class="section-title"><span class="description">Graphic Design</span></h2>
             <ul class="feature-grid">
                 <li class="feature-item wide" data-category="editorial">
                     <a href="pages/cine-cubano-magazine.html">
                         <figure>
                                 <img src="images/portfolio/editorial/cine-cubano-magazine/cine-cubano-magazine.webp" alt="Cine Cubano #201-202 Magazine cover" class="cover-img editorial-img">
                                 <figcaption class="feature-caption">
-                                <p>Cine Cubano Magazine</p>
-                                <ul class="feature-caption-list">
-                                    <li>Editorial Design</li>
-                                </ul>
+                                Cine Cubano Magazine
+                               <li>Editorial Design</li>
                             </figcaption>
                         </figure>
                     </a>

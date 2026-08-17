@@ -1,0 +1,185 @@
+.feature-grid {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: var(--gap);
+    padding: var(--padding);
+}
+
+.feature-grid ul {
+    display: contents;
+}
+
+.feature-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.feature-item.wide {
+    grid-column: span 2;
+    aspect-ratio: 8 / 3;
+}
+.feature-item.tall {
+    grid-row: span 2;
+    aspect-ratio: 4 / 6;
+}
+.feature-item.big {
+    grid-column: span 2;
+    grid-row: span 2;
+    aspect-ratio: calc(8 / 6 - (var(--gap)));
+}
+
+.feature-item {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: calc(var(--border-radius) + 0.5rem);
+    background-image: linear-gradient(135deg, rgb(from var(--bg-color) r g b / 10%), rgb(from var(--text-color) r g b / 10%), rgb(from var(--bg-color) r g b / 10%));
+    opacity: 0;
+    transform: translateY(30px) scale(0.94);
+    transition: opacity 0.5s ease-out, transform 0.6s ease-out, box-shadow 0.2s ease;
+}
+
+.feature-item:hover a {
+    cursor: pointer;
+    animation: textBounce 0.6s ease-in-out;
+}
+
+.feature-item.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+figcaption.feature-caption {
+    color: var(--bg-light-color);
+    font-size: var(--MF);
+    background-color: var(--accent-color);
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    transform: translateY(150%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding);
+    margin: var(--margin);
+    transition: all 0.5s ease;
+    border-radius: calc(var(--border-radius) - 0.5rem);
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='8' fill='%23e1e1e1' fill-opacity='0.98'/%3E%3C/svg%3E") 10 10, auto;
+}
+
+.feature-item:hover .feature-caption,
+.feature-item:hover figcaption.feature-caption,
+.feature-item:hover .feature-caption-list li {
+    transform: translateY(0);
+    cursor: var(--cursor-light);
+}
+
+figcaption.feature-caption li {
+    font-style: normal;
+    color: var(--text-color);
+}
+
+figcaption.feature-caption .caption-meta {
+    margin: 0;
+    padding: 0;
+}
+
+.feature-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    gap: var(--gap);
+    max-width: 60ch;
+}
+
+.feature-text p {
+    animation: textBounce 0.6s ease-in-out;
+    padding: 0;
+}
+
+.feature-text ul {
+    font: var(--SF) 'JetBrains Mono', monospace;
+
+}
+
+.feature-text li {
+    border-left: 0.1rem solid transparent;
+    font-size: var(--SF);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease, border-left-color 0.4s ease;
+}
+
+.feature-text li.visible {
+    opacity: 1;
+    transform: translateY(0);
+    border-left-color: white;
+}
+
+@media (max-width: 600px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-text,
+    .feature-text p,
+    .feature-text h1,
+    .feature-text li {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .feature-item.wide,
+    .feature-item.tall,
+    .feature-item.big {
+        grid-column: span 1;
+        grid-row: span 1;
+        aspect-ratio: 4 / 3;
+    }
+
+    figcaption.feature-caption {
+        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="rgba(225, 225, 225, 0.9)" /></svg>') 10 10, auto;
+    }
+    
+    .feature-item:active .feature-caption,
+    .feature-item:active figcaption.feature-caption {
+        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="rgba(225, 225, 225, 0.9)" /></svg>') 10 10, auto;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature-item.big {
+        grid-column: span 2;
+        grid-row: span 1;
+        aspect-ratio: 8 / 3;
+    }
+
+    .feature-item.wide {
+        grid-column: span 2;
+    }
+
+    .feature-item.tall {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+}

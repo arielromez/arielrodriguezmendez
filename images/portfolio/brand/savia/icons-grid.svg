@@ -3720,10 +3720,10 @@
       <rect class="cls-569" x="1376.000000013619683" y="1120.000000013620593" width="32.000000001240551" height="32.000000001240551"/>
     </g>
   </g>
-  <g id="img-grid">
+  <!-- <g id="img-grid">
     <g>
       <rect class="cls-2" y="384" width="2047.999999999996362" height="768"/>
       <rect class="cls-588" x="512" width="1024" height="1536"/>
     </g>
-  </g>
+  </g> -->
 </svg>

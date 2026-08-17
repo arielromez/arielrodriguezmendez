@@ -1,0 +1,19 @@
+/* css/main.css */
+
+/* 1. Declarar el orden de precedencia de las capas */
+@layer fonts, reset, base, layout, components, utilities;
+
+/* 2. Importar los archivos parciales asignados a su capa correspondiente */
+@import url('./02-base/_fonts.css') layer(fonts);
+@import url('./01-abstracts/_variables.css') layer(base);
+@import url('./02-base/_reset.css') layer(reset);
+@import url('./02-base/_utilities.css') layer(utilities);
+
+@import url('./04-layout/_header.css') layer(layout);
+@import url('./04-layout/_footer.css') layer(layout);
+
+@import url('./03-components/_buttons.css') layer(components);
+@import url('./03-components/_slideshow.css') layer(components);
+@import url('./03-components/_feature-grid.css') layer(components);
+@import url('./03-components/_project-grid.css') layer(components);
+@import url('./03-components/_gallery.css') layer(components);
