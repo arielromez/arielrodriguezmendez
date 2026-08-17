@@ -35,14 +35,10 @@ main {
 
 h1 {
     font-size: var(--MF);
-    /* display: inline-block;
-    line-height: var(--LF-lh); */
 }
 
 h2 {
     font-size: var(--MF);
-    /* display: inline-block;
-    line-height: var(--MF-lh); */
 }
 
 h3 {
