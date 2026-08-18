@@ -10,14 +10,13 @@
     --LF-lh: 1.2;
 
     /* COLORS */
-    --color-links: rgba(0, 0, 255, 0.98);
+    --color-links: var(--text-color);
     --text-color: rgba(128, 128, 128, 1);
-    --text-color-alt: rgba(80, 80, 80, 1);
     --button-bg-gradient: linear-gradient(135deg, rgba(226, 221, 219, 0.1), rgba(128, 128, 128, 0.1), rgba(226, 221, 219, 0.1));
     --accent-color: rgba(0, 0, 255, 0.98);
     --bg-color: var(--bg-light-color);
     --bg-dark-color: rgba(46, 43, 36, 0.8);
-    --bg-light-color: rgba(226, 221, 219, 0.8);
+    --bg-light-color: rgba(234, 234, 234, 0.9);
 
     /* CURSORS */
     --cursor-blue: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='8' fill='%230000ff' fill-opacity='0.9'/%3E%3C/svg%3E") 10 10, auto;
