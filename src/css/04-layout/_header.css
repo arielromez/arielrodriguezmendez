@@ -34,7 +34,6 @@
     padding: var(--padding);
     border: var(--border);
     box-shadow: var(--box-shadow);
-    
 }
 
 .header--home:not(.header-expanded) .header-content {

@@ -19,18 +19,20 @@ body {
     background-size: auto, 1px 1px, 5px 5px;
     background-position: 0 0, 0 0, 1px 1px;
     max-width: 2400px;
+    min-height: 100vh;
     justify-content: center;
     background-color: var(--bg-color);
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
     line-height: 1.6;
+    letter-spacing: 0.01em;
 }
 
 main {
     min-height: 100vh;
     flex-grow: 1;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 h1 {
