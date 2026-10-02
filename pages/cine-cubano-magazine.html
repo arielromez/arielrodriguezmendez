@@ -14,7 +14,11 @@
 <body data-category="editorial">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main> 
@@ -26,18 +30,14 @@
             </figure>
             <div class="feature-text">
                 <h1 aria-describedby="cine-cubano-magazine-summary">Cine Cubano Magazine</h1>
-            </div>
-            <div class="feature-text">
-                <p id="cine-cubano-magazine-summary">
-                    Art direction and editorial design for the official publication of the Cuban Institute of Cinematographic Art <span class="nowrap">and Industry (ICAIC)</span>.
-                    Issues published <span class="nowrap">between 2017-2021.</span>
-                </p>
-                <br>
-                <ul>
-                    <li>Editorial Design</li>
-                    <li>Art Direction</li>
-                    <li>Sole Graphic Designer</li>
+                <ul class="subheading">
+                    <li>Editorial design</li>
+                    <li>Art direction</li>
+                    <li>Sole graphic designer</li>
                 </ul>
+                <p id="cine-cubano-magazine-summary" class="body-size">
+                    Art direction and editorial design for the official publication of the Cuban Institute of Cinematographic Art and Industry (ICAIC).</p>
+                <p class="caption">Issues published between 2017-2021.</p>
             </div>
             <figure class="feature-item">
                 <img src="../images/portfolio/editorial/cine-cubano-magazine/201-cover.webp" alt="Cine Cubano Magazine Issues 201-202 Cover">
@@ -77,7 +77,9 @@
         </section>
     </main>   
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
 </body>
 </html>

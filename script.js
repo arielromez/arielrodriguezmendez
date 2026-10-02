@@ -42,9 +42,9 @@ function getTextOptions(category, initialText) {
     }
 
     switch (initialText) {
-        case 'Visual communication designer':
+        case 'Visual artist':
             return [
-                'Visual communication designer',
+                'Visual Artist',
                 'Illustrator',
                 'Custom type creator',
                 'Web developer'
@@ -107,7 +107,31 @@ function initTextCarousel() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', initTextCarousel);
+document.addEventListener('DOMContentLoaded', () => {
+    initTextCarousel();
+    initHeaderMenu();
+});
+
+function initHeaderMenu() {
+    const nav = document.querySelector('.header-nav');
+    const toggle = document.querySelector('.menu-toggle');
+
+    if (!nav || !toggle) {
+        return;
+    }
+
+    toggle.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    nav.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+            nav.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        });
+    });
+}
 
 function initScrollAnimations() {
     const featureItems = document.querySelectorAll('.feature-item');
@@ -179,6 +203,14 @@ let lastScrollTop = 0;
 const header = document.querySelector('header');
 const isHomeHeader = header?.classList.contains('header--home') ?? false;
 
+function updateHeaderHeight() {
+    if (!header) {
+        return;
+    }
+
+    document.documentElement.style.setProperty('--header-height', `${header.offsetHeight}px`);
+}
+
 function updateHeaderExpandedState(scrollTop) {
     if (!header || !isHomeHeader) {
         return;
@@ -191,7 +223,10 @@ function updateHeaderExpandedState(scrollTop) {
     }
 }
 
+updateHeaderHeight();
 updateHeaderExpandedState(window.pageYOffset || document.documentElement.scrollTop);
+
+window.addEventListener('resize', updateHeaderHeight);
 
 window.addEventListener('scroll', () => {
     if (!header) {
@@ -201,6 +236,7 @@ window.addEventListener('scroll', () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     updateHeaderExpandedState(scrollTop);
+    updateHeaderHeight();
 
     if (scrollTop > lastScrollTop && scrollTop > 100) {
         header.classList.add('hidden');

@@ -11,14 +11,6 @@
     display: contents;
 }
 
-.feature-item a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: inherit;
-}
-
 .feature-item.wide {
     grid-column: span 2;
     aspect-ratio: 8 / 3;
@@ -41,17 +33,21 @@
     position: relative;
     object-fit: cover;
     overflow: hidden;
+    /* border: var(--border); */
     text-decoration: none;
-    border-radius: calc(var(--border-radius) + 0.5rem);
+    border-radius: var(--border-radius);
     background-image: linear-gradient(135deg, rgba(255,255,255,0.24), rgba(128,128,128,0.12), rgba(255,255,255,0.24));
     opacity: 0;
     transform: translateY(30px) scale(0.94);
     transition: opacity 0.5s ease-out, transform 0.6s ease-out, box-shadow 0.25s ease;
 }
 
-.feature-item:hover {
-    box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.08);
+.feature-item a {
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
 }
+
 
 .feature-item:hover a {
     cursor: pointer;
@@ -64,7 +60,7 @@
 }
 
 figcaption.feature-caption {
-
+    font-family: var(--type-caption-font);
     color: var(--bg-light-color);
     font-size: var(--MF);
     background-color: var(--accent-color);
@@ -108,23 +104,16 @@ figcaption.feature-caption .caption-meta {
     flex-direction: column;
     padding: var(--padding);
     gap: var(--gap);
-    max-width: 60ch;
 }
 
 .feature-text p {
     animation: textBounce 0.6s ease-in-out;
-    padding: 0;
+    max-width: 40ch;
 }
 
-.feature-text ul {
-    font: var(--SF) 'JetBrains Mono', monospace;
 
-}
-
-.feature-text li {
+/* .feature-text li {
     border-left: 0.1rem solid transparent;
-    font-size: var(--SF);
-    color: var(--text-color);
     padding: 0.5rem 1rem;
     align-items: center;
     opacity: 0;
@@ -136,7 +125,7 @@ figcaption.feature-caption .caption-meta {
     opacity: 1;
     transform: translateY(0);
     border-left-color: white;
-}
+} */
 
 @media (max-width: 600px) {
     .feature-grid {

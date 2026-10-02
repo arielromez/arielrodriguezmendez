@@ -1,0 +1,85 @@
+/*
+  Split layout component
+  - Desktop: two columns, 50/50 by default, with sticky media on the right.
+  - Mobile: stacked layout, keeping content first for readability.
+  - Use "split-layout--reverse" to swap columns.
+*/
+
+.split-layout {
+  --split-layout-gap: clamp(1.25rem, 2vw, 3rem);
+  --split-layout-media-height: min(72vh, 42rem);
+  --split-layout-mobile-media-height: 20rem;
+  --split-layout-sticky-top: calc(var(--header-height, 5.5rem) + 1rem);
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--split-layout-gap);
+  align-items: start;
+  width: min(100%, 72rem);
+  margin: 0 auto;
+  padding: clamp(1.5rem, 3vw, 3rem) 0;
+}
+
+.split-layout__content,
+.split-layout__media {
+  min-width: 0;
+}
+
+.split-layout__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-block: 0.5rem;
+}
+
+.split-layout__media {
+  position: sticky;
+  top: var(--split-layout-sticky-top);
+  height: var(--split-layout-media-height);
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(128,128,128,0.08));
+}
+
+.split-layout__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.split-layout--reverse .split-layout__content {
+  order: 2;
+}
+
+.split-layout--reverse .split-layout__media {
+  order: 1;
+}
+
+@media (max-width: 767px) {
+  .split-layout {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .split-layout__media {
+    position: relative;
+    top: 0;
+    height: var(--split-layout-mobile-media-height);
+    order: 1;
+  }
+
+  .split-layout__content {
+    order: 2;
+  }
+
+  .split-layout--reverse .split-layout__media,
+  .split-layout--reverse .split-layout__content {
+    order: 1;
+  }
+
+  .split-layout--reverse .split-layout__content {
+    order: 2;
+  }
+}
+

@@ -14,7 +14,11 @@
 <body data-category="brand">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main> 
@@ -22,19 +26,19 @@
             <figure class="feature-item wide">
                 <img src="../images/portfolio/brand/tete-by-doublete/logotype.svg" alt="Tete by Doublete Product Design logo">
             </figure>
-            <h1  class="feature-text" aria-describedby="tete-by-doublete-summary">Tete by Doublete</h1>
             <div class="feature-text">
+                <h1 aria-describedby="tete-by-doublete-summary">Tete by Doublete</h1>
+                <ul  class="subheading">
+                    <li>Naming</li>
+                    <li>Brand Identity</li>
+                    <li>Product Design</li>
+                    <li>Packaging Design</li>
+                </ul>
                 <p id="tete-by-doublete-summary">
                     Handmade, limited-edition educational toys prioritizing sustainability, safety, and cognitive development.  
                 </p>
-                <br>
-                <ul>
-                    <li>Naming</li>
-                    <li>Brand identity</li>
-                    <li>Product design</li>
-                    <li>Packaging design</li>
-                </ul>
             </div>
+
             <figure class="feature-item">
                 <img src="../images/portfolio/brand/tete-by-doublete/prototype.webp" alt="Tete by Doublete prototype" class="cover-img">
             </figure>
@@ -60,10 +64,10 @@
                 <img src="../images/portfolio/brand/tete-by-doublete/button-colors-tshirts-zoom.gif" alt="Tete by Doublete button colors t-shirts">
             </figure>
         </section>
+          <div class="max-width-container hero">
+            <p id="about-summary" class="display-size" >We design each product, laser-cut it from wood, hand-paint it, and pair it with interactive, eco-friendly packaging made from recycled materials.</p>
+        </div>   
         <section class="project-grid" id="educational-toys">
-            <div class="feature-text">
-                <p>We design each product, laser-cut it from wood, hand-paint it, and pair it with interactive, eco-friendly packaging made from recycled materials.</p>
-            </div>
             <ul class="gallery">
                 <li class="feature-item"><img class="cover-img" src="../images/portfolio/brand/tete-by-doublete/educational-toys/basic-shapes.webp" alt="Tete by Doublete educational toy basic figures"></li>
                 <li class="feature-item"><img class="cover-img" src="../images/portfolio/brand/tete-by-doublete/educational-toys/basic-shapes-two.webp" alt="Tete by Doublete educational toy disassembled"></li>
@@ -96,7 +100,7 @@
         </section>
     </main> 
     <footer>
-        <span class="nowrap"><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
-    </footer>  
-</body>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> <span class="nowrap">Ariel Rodriguez Mendez</span></p>
+        </div>
 </html>

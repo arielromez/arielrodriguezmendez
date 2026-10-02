@@ -14,7 +14,11 @@
 <body data-category="brand">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main>
@@ -24,24 +28,22 @@
             </figure>
             <div class="feature-text">
                 <h1 aria-describedby="la-bella-vida-summary">La Bella Vida</h1>
-            </div>
-            <div class="feature-text">
-                <!-- <p id="la-bella-vida-summary">Custom monogram design for luxury boutique branding.</p>
-                <br> -->
-                <ul>
+                <ul class="subheading">
                     <li>Monogram design</li>
                 </ul>
             </div>
             <figure class="feature-item">
-                <img src="../images/portfolio/brand/la-bella-vida/bag.svg" alt="La Bella Vida Bag Design">
+                <img src="../images/portfolio/brand/la-bella-vida/round-sign.webp" alt="La Bella Vida round sign">
             </figure>
             <figure class="feature-item">
-                <img src="../images/portfolio/brand/la-bella-vida/round-sign.webp" alt="La Bella Vida round sign">
+                <img src="../images/portfolio/brand/la-bella-vida/bag.svg" alt="La Bella Vida Bag Design">
             </figure>
         </section>
     </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
 </body>
 </html>

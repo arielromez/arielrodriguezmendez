@@ -1,3 +1,7 @@
+:root {
+    --header-height: 0px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,29 +27,64 @@ body {
     justify-content: center;
     background-color: var(--bg-color);
     margin: 0 auto;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-ligatures: common-ligatures historical-ligatures;
+    font-feature-settings: "liga" 1, "clig" 1, "hist" 1;
     color: var(--text-color);
     line-height: 1.6;
     letter-spacing: 0.01em;
 }
 
 main {
-    min-height: 100vh;
+    min-height: calc(100vh - var(--header-height, 0px));
     flex-grow: 1;
     margin: 0 auto;
+    padding-top: var(--header-height, 0px);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
 }
 
 h1 {
-    font-size: var(--MF);
+    font-size: var(--type-h1-size);
+    line-height: var(--type-h1-lh);
+    letter-spacing: var(--type-h1-letter-spacing);
+    color: var(--text-color);
 }
 
 h2 {
-    font-size: var(--MF);
+    font-size: var(--type-h2-size);
+    line-height: var(--type-h2-lh);
+    letter-spacing: var(--type-h2-letter-spacing);
+    color: var(--text-color);
 }
 
 h3 {
-    font-size: var(--SF);
+    font-size: var(--type-h3-size);
+    line-height: var(--type-h3-lh);
+    letter-spacing: var(--type-h3-letter-spacing);
+    color: var(--text-color);
     display: inline-block;
+}
+
+.subheading {
+    font-size: var(--type-subheading-size);
+    line-height: var(--type-subheading-lh);
+    letter-spacing: var(--type-subheading-letter-spacing);
+    color: var(--text-color-alt);
+    display: inline-block;
+}
+
+.caption {
+    font-family: var(--type-caption-font);
+    font-size: var(--type-caption-size);
+    line-height: var(--type-caption-lh);
+    letter-spacing: var(--type-caption-letter-spacing);
+    color: var(--text-color-alt);
 }
 
 ul, li {
@@ -57,13 +96,14 @@ ul {
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    padding: var(--padding) 0;
 }
 
 li {
     gap: var(--gap);
 }
 
-a {
+a { 
     text-decoration: none;
     color: var(--color-links);
     font-size: var(--MF);
@@ -74,19 +114,16 @@ a:hover {
 }
 
 
-p {
-    font-size: var(--MF);
-    line-height: var(--MF-lh);
+p { 
+    font-size: var(--type-body-size);
+    line-height: var(--type-body-lh);
+    letter-spacing: var(--type-body-letter-spacing);
     color: var(--text-color);
     display: inline-block;
     padding-bottom: var(--padding);
     padding-top: var(--padding);
 }
 
-i {
-    font-style: normal;
-    color: var(--text-color);
-}
 
 figure {
     width: 100%;

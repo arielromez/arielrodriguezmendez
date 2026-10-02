@@ -12,87 +12,129 @@
     <script src="../script.js" defer></script>
 </head>
 <body>
-    <header class="header header--inner">
+    <header class="header header--home">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
-        </div>
-    </header>
-    <main>
-        <section class="project-grid">
-            <figure class="feature-item big">
-                <img src="../images/gallery/selfie.gif" alt="Ariel Rodriguez Mendez" class="cover-img">
+            <div><h1 class="header-title">
+                <a href="../#"><span class="nowrap">Ariel Rodríguez Méndez</span></a>
+            </h1>
+            <h2>
+                <span class="description subheading">Visual artist</span>
+            </h2>
+        </div>    
+            <nav class="header-nav" aria-label="Main Navigation">
+                <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
                 
-                <figcaption class="feature-caption">
-                    <p>Hi there</p>
-                </figcaption>
-            </figure>
-            <h1 class="feature-text" aria-describedby="about-summary">About me</h1>
-
-            <div class="feature-text">
-                <p id="about-summary">I'm a graphic designer with over a decade of experience in visual communication, specializing in brand identity, editorial design, environmental graphics, and digital experiences.</p>
-            </div>
-                <br>   
-        </section>
-        <section class="project-grid">
-              <div class="feature-text">  
-                <h2>Experience</h2>
-                <ul>
-                    <li><b>Art Director at Cine Cubano Magazine</b>
-                        <br>
-                        Cuban Institute of Cinematographic Art and Industry (ICAIC)<br>2017-2021
-                    </li>
-                    <li><b>Art Director at Bisiesto</b>
-                        <br>
-                        Daily journal of The ICAIC Young Filmmakers Festival (Muestra Joven ICAIC)<br>2015-2018
-                    </li>
-                </ul>    
-                <br>
-            </div>
-            <div class="feature-text">
-                <h2>Education</h2>
-                <ul>
-                    <li><h3>Bachelor's Degree in Visual Communication Design</h3>
-                        <br>
-                        Higher Institute of Design in Havana<br>2009-2014
-                    </li>
-                    <li><h3>Postgraduate in Color Management in Design</h3>
-                        <br>
-                        Higher Institute of Design in Havana<br>2014
+                </button>
+                <ul class="nav-menu">
+                    <li class="ui-button"><a href="../index.html#work" aria-label="Go to work section" title="Work">Work</a></li>
+                    <li class="ui-button current-page" aria-current="page">
+                        <a href="info.html" aria-label="More information" title="More information">About</a>
                     </li>
                 </ul>
+            </nav>
+    </header>
+    <!-- <header class="header header--inner">
+        <div class="max-width-container header-content">
+            <nav aria-label="Project navigation">
+                <a href="../index.html" class="ui-button" aria-label="Back to homepage">
+                    <span class="nowrap">Back to home</span>
+                </a>
+            </nav>
+        </div>
+    </header> -->
+    <main>
+        <section class="split-layout" aria-labelledby="about-title">
+            <div class="split-layout__media">
+                <img
+                    class="split-layout__image"
+                    src="../images/gallery/i.webp"
+                    alt="Ariel Rodriguez Mendez"
+                >
+            </div>
+            <article class="split-layout__content">
+                <div class="feature-text">
+                    <h1 id="about-title">About</h1>
+                    <p id="about-summary" class="body-size">
+                    As an independent designer, I have collaborated with publishing houses, architecture and design studios, and independent artists.
+                    </p>
+                </div>
+              <div class="feature-text">  
+                <h2 id="experience-title" class="subheading">Experience</h2>
+                <p class="body-size">I worked as Art Director at Bisiesto, the daily journal of the ICAIC Young Filmmakers Festival, from 2015 to 2018. From 2017 to 2021, I was also Art Director at Cine Cubano Magazine, published by the Cuban Institute of Cinematographic Art and Industry (ICAIC).</p>
+                <!-- <ul>
+                    <li>
+                        <h3 class="display-size">Art Director at Cine Cubano Magazine.</h3>
+                        <br>
+                        <p class="subheading">Cuban Institute of Cinematographic Art and Industry (ICAIC).</p>
+                        <br>
+                        <p class="caption">2017-2021</p>
+                    </li>
+                    <li>
+                        <h3 class="display-size">Art Director at Bisiesto</h3>
+                        <br>
+                        <p class="subheading">Daily journal of The ICAIC Young Filmmakers Festival (Muestra Joven ICAIC).</p>
+                        <br>
+                        <p class="caption">2015-2018</p>
+                    </li>
+                </ul>    
+                <br> -->
+            </div>
+            <div class="feature-text">
+                <h2 id="education-title" class="subheading">Education</h2>
+                <p class="body-size">Bachelor’s Degree in Visual Communication Design from the Higher Institute of Design of Havana, Cuba (2009–2014), followed by a Postgraduate Diploma in Color Management in Design from the same institution (2014).</p>
+                <!-- <ul>
+                    <li>
+                        <h3 class="display-size">Bachelor’s Degree in Visual Communication Design.</h3>
+                        <br>
+                        <p class="subheading">Higher Institute of Design of Havana, Cuba.</p>
+                        <br>
+                        <p class="caption">2009-2014</p>
+                    </li>
+                    <li>
+                        <h3 class="display-size">Postgraduate in Color Management in Design</h3>
+                        <br>
+                        <p class="subheading">Higher Institute of Design of
+                        Havana, Cuba.</p>
+                        <br>
+                        <p class="caption">2014</p>
+                    </li>
+                </ul> -->
             </div>
           
             <div class="feature-text">
-                <h2>Links</h2>
-                    <a href="../files/Ariel-Rodriguez-Mendez-CV.pdf" target="_blank" rel="noopener">Resume</a>                    
-                    <a href="mailto:arielromez.info@gmail.com">Email</a>
+                <h2 id="links-title" class="subheading">Links</h2>
+                <a href="../files/Ariel-Rodriguez-Mendez-CV.pdf" target="_blank" rel="noopener">Resume</a>                    
+                <a href="mailto:arielromez.info@gmail.com">Email</a>
+            </div>
+            </article>
+        </section>
+        <section id="about-website" class="split-layout">
+            <article class="split-layout__content">
+            <div class="feature-text">
+               <h2 id="about-website-title" class="subheading"z>About this website</h2>
+                <p >I built it on a single core premise: delivering an identical visual experience across desktop and mobile with minimal design and code. It stands as a demonstration of my frontend skills and lightweight UI/UX philosophy.</p>
+            <!-- <ul>
+                    <li>
+                        <b>Workflow</b>
+                        <br>
+                        Visual Design ➔ Responsive Code</li>
+                    <li>
+                        <b>Environment</b><br>
+                        Visual Studio Code</li>
+                    <li>
+                        <b>Tech Stack</b><br>
+                         Semantic HTML5, Custom CSS3 and Vanilla JS.</li>
+                </ul> -->
+            </div>
+            </article>
+        </section>
+<!-- 
+            <div class="max-width-container hero">
+                <p class="display-size">When I'm not working, you can often find me  experimenting with digital art projects.</p>
             </div>
             <div class="feature-text">
-               <h2>About this website</h2>
-                <p>Built on a single core premise: delivering an identical visual experience across desktop and mobile with minimal design and code. It stands as a demonstration of my frontend skills and lightweight UI/UX philosophy.</p>
-                <br>
-                <ul>
-                    <li><b>Workflow</b><br>
-                        Visual Design ➔ Responsive Code</li>
-                    <li><b>Environment</b><br>
-                        Visual Studio Code</li>
-                    <li><b>Tech Stack</b><br>
-                         Semantic HTML5, Custom CSS3 and Vanilla JS.</li>
-                </ul>
-            </div>
-            <!-- <div class="feature-text">
-                <p>When I'm not working, you can often find me  experimenting with digital art projects.</p>
-            </div> -->
-            <!-- <figure class="feature-item wide">
-                            <object data="../images/gallery/grids/icon-grid.svg" type="image/svg+xml" class="cover-img" aria-label="Icon grid">
-                                <img src="../images/gallery/grids/icon-grid.svg" alt="icon grid" class="cover-img">
-                            </object>
-            </figure> -->
-        </section>
-
-            
-            
-            <!-- <div class="feature-text">
                 <ul class="feature-grid">
                     <li class="wide">wide</li>
                     <li class="big">big</li>
@@ -105,12 +147,14 @@
                     <li class="regular">regular</li>
                     <li class="wide">wide</li>
                 </ul>
-            </div>   -->
-           
+            </div>  
+            -->
 
     </main>
     <footer>
-        <p>&copy; <span id="current-year"></span> <span class="nowrap">Ariel Rodriguez Mendez.</span></p>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> <span class="nowrap">Ariel Rodriguez Mendez.</span></p>
+        </div>
     </footer>
 </body>
 </html>

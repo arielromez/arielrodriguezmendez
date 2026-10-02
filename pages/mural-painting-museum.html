@@ -14,7 +14,11 @@
 <body data-category="experiential">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main> 
@@ -24,22 +28,19 @@
             </figure>
 	        <div class="feature-text">
                  <h1 aria-describedby="mural-painting-museum-summary">Mural Painting Museum</h1>
-            </div>
-	        <div class="feature-text">
-                 <p id="mural-painting-museum-summary">Showcasing archaeological processes and restoration techniques for the Cultural Heritage Directorate of Havana City Historian's Office.</p>
-                <p>Collaborative project led by Proporciones Studio.</p>
-                <br>
-                <ul>
-                    <li>Research</li>
-                    <li>Photography</li>
-                    <li>Information design</li>
-                    <li>Illustration</li>
-                </ul>
+                 <ul class="subheading">
+                     <li>Research</li>
+                     <li>Photography</li>
+                     <li>Information design</li>
+                     <li>Illustration</li>
+                 </ul>
+                <p id="mural-painting-museum-summary">Showcasing archaeological processes and restoration techniques for the Cultural Heritage Directorate of Havana City Historian's Office.</p>
+                <p class="caption">Collaborative project led by <span class="nowrap">Proporciones Studio</span>.</span>
             </div>
 	        <figure class="feature-item">
                 <img src="../images/portfolio/experiential/mural-painting-museum/photo-1.webp" alt="Mural Painting Museum Photo" class="cover-img">
             </figure>
-            <figure class="feature-item">
+            <figure class="feature-item wide">
                 <img src="../images/portfolio/experiential/mural-painting-museum/photo-2.webp" alt="Mural Painting Museum Photo 2" class="cover-img">
             </figure>
             <figure class="feature-item wide">
@@ -65,9 +66,11 @@
                 <img src="../images/portfolio/experiential/mural-painting-museum/renaissance.webp" alt="Mural Painting Museum Renaissance">
             </figure> -->
         </section>
-    </main>  
+    </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
 </body>
 </html>

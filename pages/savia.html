@@ -14,7 +14,11 @@
 <body data-category="brand">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main>
@@ -24,16 +28,14 @@
             </figure>
             <div class="feature-text">
                 <h1 aria-describedby="savia-summary">Savia</h1>
-            </div>
-            <div class="feature-text">
-                <p id="savia-summary">Educational Department Project of the National Museum of Fine Arts of Cuba, focused on art education from a playful and participatory perspective.</p>
-                <br>
-                <ul>
+                <ul class="subheading">
                     <li>Brand identity</li>
                     <li>Interaction design</li>
                     <li>Interface design</li>
                 </ul>
+                <p id="savia-summary" class="body-size">Educational Department Project of the National Museum of Fine Arts of Cuba, focused on art education from a playful and participatory perspective.</p>
             </div>
+      
             <figure class="feature-item">
                 <img src="../images/portfolio/brand/savia/icon.svg" alt="Savia Icon">
             </figure>
@@ -73,7 +75,9 @@
         </section>
     </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
 </body>
 </html>

@@ -14,7 +14,11 @@
 <body data-category="experiential">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main>
@@ -24,22 +28,19 @@
             </figure>
             <div class="feature-text">
                 <h1 aria-describedby="naval-modeling-hall-summary">Naval Modeling Hall</h1>
-            </div>
-            <div class="feature-text">
-                <p id="naval-modeling-hall-summary">Environmental graphics design at the Castle of the Royal Force Museum of Havana, creating an immersive experience that showcases maritime heritage and ship model craftsmanship.</p>
-                <br>
-                <p>Collaborative project led by Proporciones Studio.</p>
-                <br>
-                <ul>
+                <ul class="subheading">
                     <li>Research</li>
-                    <li>Environmental Design</li>
-                    <li>Information Design</li>
+                    <li>Environmental design</li>
+                    <li>Information design</li>
                 </ul>
+                <p id="naval-modeling-hall-summary" class="body-size">Environmental graphics design at the Castle of the Royal Force Museum of Havana, creating an immersive experience that showcases maritime heritage and ship model craftsmanship.</p>
+                <p class="caption">Collaborative project led by <span class="nowrap">Proporciones Studio</span>.</p>
+
             </div>
             <figure class="feature-item">
                 <img src="../images/portfolio/experiential/naval-modelling-hall/transatlantic-model-wall.webp" alt="Naval Modeling Hall Graphics and Lighting Concept" class="cover-img experiential-img">
             </figure>
-            <figure class="feature-item ">
+            <figure class="feature-item wide">
                 <img src="../images/portfolio/experiential/naval-modelling-hall/shelfs.webp" alt="Naval Modeling Hall Graphics and Lighting Concept">
             </figure>
             <!-- <figure class="feature-item">
@@ -63,7 +64,9 @@
         </section>
     </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
 </body>
 </html>

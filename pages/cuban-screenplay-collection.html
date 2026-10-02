@@ -14,7 +14,11 @@
 <body data-category="editorial">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main> 
@@ -24,15 +28,12 @@
             </figure>
             <div class="feature-text">
                 <h1 aria-describedby="cuban-screenplay-collection-summary">Cuban Screenplay Collection</h1>
-            </div>
-            <div class="feature-text">
-                <p id="cuban-screenplay-collection-summary">Book Cover Designs for Ediciones ICAIC the publishing imprint of the Cuban Institute of Cinematographic Art <span class="nowrap">and Industry (ICAIC).</span></p>
-                <br>
-                <ul>
+                <ul class="subheading">
                     <li>Editorial design</li>
                     <li>Art direction</li>
-                    <li>Cover illustrations</li>
+                    <li>Cover illustration</li>
                 </ul>
+                <p id="cuban-screenplay-collection-summary">Book Cover Designs for Ediciones ICAIC the publishing imprint of the Cuban Institute of Cinematographic Art and <span class="nowrap">Industry (ICAIC).</span></p>
             </div>
             <figure class="feature-item">
                 <img src="../images/portfolio/editorial/cuban-screenplay-collection/de-cierta-manera-cuban-cover.webp" alt="De Cierta Manera Cuban Screenplay Collection Cover">
@@ -63,7 +64,9 @@
         </section>
     </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
 </body>
 </html>

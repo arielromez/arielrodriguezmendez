@@ -14,7 +14,11 @@
 <body data-category="brand">
     <header class="header header--inner">
         <div class="max-width-container header-content">
-            <a href="javascript:history.back()"><span class="nowrap">Back</span></a>
+            <nav aria-label="Project navigation">
+                <a href="../index.html#work" class="ui-button" aria-label="Back to portfolio work">
+                    <span class="nowrap">Back to work</span>
+                </a>
+            </nav>
         </div>
     </header>
     <main> 
@@ -24,17 +28,13 @@
             </figure>
             <div class="feature-text">
                 <h1 aria-describedby="dropless-summary">Dropless</h1>
-            </div>
-            <div class="feature-text">
-                <p id="dropless-summary">A dynamic brand identity system centered on movement and fluidity, expressed through animated logo elements.</p>
-                <br>                
-                <ul>
+                <ul class="subheading">
                     <li>Brand identity</li>
                 </ul>
             </div>
-            <figure class="feature-item">
-                <img src="../images/portfolio/brand/dropless/duct-tape.webp" alt="Dropless duct tape branding application">
-            </figure>
+            <figure class="feature-item wide">
+                <img src="../images/portfolio/brand/dropless/business-card.svg" alt="Dropless business card branding application">
+            </figure>            
             <figure class="feature-item">
                 <img src="../images/portfolio/brand/dropless/hard-hat.webp" alt="Dropless hard hat branding application">
             </figure>
@@ -42,13 +42,15 @@
                 <img src="../images/portfolio/brand/dropless/t-shirt-2.webp" alt="Dropless t-shirt branding application">
             </figure>
             <figure class="feature-item">
-                <img src="../images/portfolio/brand/dropless/business-card.svg" alt="Dropless business card branding application">
+                <img src="../images/portfolio/brand/dropless/duct-tape.webp" alt="Dropless duct tape branding application">
             </figure>
 
         </section>
     </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
 </body>
 </html>

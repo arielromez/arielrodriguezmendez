@@ -24,27 +24,29 @@
 <body>
     <header class="header header--home">
         <div class="max-width-container header-content">
-            <h1 class="header-title">
+            <div><h1 class="header-title">
                 <a href="#"><span class="nowrap">Ariel Rodríguez Méndez</span></a>
             </h1>
             <h2>
-                <span class="description">Graphic Designer</span>
+                <span class="description subheading">Graphic Designer</span>
             </h2>
-            <nav class="nav-list" aria-label="Main Navigation">
-                <ul>
-                    <li>
-                        <a href="#work" aria-label="Go to work section" title="Work">Work</a>
-                    </li>
-                    <li>
-                        <a href="pages/info.html" aria-label="More information" title="More information">About</a>
-                    </li>
+        </div>    
+            <nav class="header-nav" aria-label="Main Navigation">
+                <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                
+                </button>
+                <ul class="nav-menu">
+                    <li class="ui-button"><a href="#work" aria-label="Go to work section" title="Work">Work</a></li>
+                    <li class="ui-button"><a href="pages/info.html" aria-label="More information" title="More information">About</a></li>
                 </ul>
             </nav>
-        </div>    
     </header>
-    <section class="max-width-container slideshow" aria-label="Brand identity slideshow">
+    <main>
+        <section class="max-width-container slideshow" aria-label="Brand identity slideshow">
         <div class="slideshow-track">           
-            <div class="slideshow-slide"><img src="images/portfolio/editorial/cine-cubano-magazine/covers-group.webp" alt="Cine Cubano Magazine covers"></div>
+            <div class="slideshow-slide"><img src="images/portfolio/editorial/cine-cubano-magazine/cine-cubano-magazine.webp" alt="Cine Cubano Magazine covers"></div>
             <div class="slideshow-slide"><img src="images/portfolio/brand/tete-by-doublete/counting-to-nine-cover.webp" alt="Tete by Doublete"></div>
             <div class="slideshow-slide"><img src="images/portfolio/brand/cubacel-tur/cubacel-tur.svg" alt="Cubacel Tur"></div>
             <div class="slideshow-slide"><img src="images/portfolio/brand/savia/icon-logotype-vertical-cover.svg" alt="Savia"></div>
@@ -54,10 +56,14 @@
             <div class="slideshow-slide"><img src="images/portfolio/brand/king-woodworker/screen-wallpaper.svg" alt="King Woodworker"></div>
             <div class="slideshow-slide"><img src="images/portfolio/brand/la-bella-vida/monogram.svg" alt="La Bella Vida"></div>
         </div>
-    </section>
-    <main>
+        </section>
+        <div class="max-width-container hero">
+            <p id="about-summary" class="display-size" >I'm a graphic designer with over a decade of experience in visual communication.</p>
+        </div>
         <section id="work">
-            <h2 class="section-title"><span class="description">Graphic Design</span></h2>
+            <div class="max-width-container">
+                <h2 class="section-title subheading"><span class="description">Graphic Design</span></h2>
+            </div>
             <ul class="feature-grid">
                 <li class="feature-item wide" data-category="editorial">
                     <a href="pages/cine-cubano-magazine.html">
@@ -65,8 +71,10 @@
                                 <img src="images/portfolio/editorial/cine-cubano-magazine/cine-cubano-magazine.webp" alt="Cine Cubano #201-202 Magazine cover" class="cover-img editorial-img">
                                 <figcaption class="feature-caption">
                                 Cine Cubano Magazine
-                               <li>Editorial Design</li>
-                            </figcaption>
+                                <ul class="feature-caption-list">
+                                    <li>Editorial Design</li>
+                                </ul>
+                                </figcaption>
                         </figure>
                     </a>
                 </li>
@@ -199,7 +207,9 @@
         </section>
     </main>
     <footer>
-        <span><p>&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p></span>
+        <div class="max-width-container">
+            <p class="caption">&copy; <span id="current-year"></span> Ariel Rodriguez Mendez</p>
+        </div>
     </footer>
     
 </body>

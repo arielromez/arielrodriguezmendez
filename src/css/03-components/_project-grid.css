@@ -1,9 +1,21 @@
 .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    max-width: 1920px;
     margin: 0 auto;
     gap: var(--gap);
-    padding: var(--padding);
+    row-gap: calc(var(--gap) * 5);
+    padding: var(--padding);   
+}
+
+.project-grid .feature-item {
+    width: 100%;
+    justify-self: stretch;
+    border-radius: 0;
+    background: none;
+    border-radius: var(--border-radius);
+
 }
 
 .project-grid > * {
