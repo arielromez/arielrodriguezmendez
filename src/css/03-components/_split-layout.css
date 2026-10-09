@@ -35,7 +35,7 @@
 .split-layout__media {
   position: sticky;
   top: var(--split-layout-sticky-top);
-  height: var(--split-layout-media-height);
+  /* height: var(--split-layout-media-height); */
   overflow: hidden;
   background: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(128,128,128,0.08));
 }

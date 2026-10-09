@@ -79,6 +79,15 @@ h3 {
     display: inline-block;
 }
 
+.display-size {
+    font-size: var(--type-display-size);
+    line-height: var(--type-display-lh);
+    letter-spacing: var(--type-display-letter-spacing);
+    color: var(--text-color);
+    margin: 0;
+    width: 45ch;
+}
+
 .caption {
     font-family: var(--type-caption-font);
     font-size: var(--type-caption-size);

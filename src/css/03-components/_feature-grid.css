@@ -111,6 +111,10 @@ figcaption.feature-caption .caption-meta {
     max-width: 40ch;
 }
 
+.feature-text a {
+    color: var(--accent-color);
+}
+
 
 /* .feature-text li {
     border-left: 0.1rem solid transparent;

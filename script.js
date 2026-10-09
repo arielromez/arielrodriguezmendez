@@ -29,11 +29,12 @@ const textOptionsByCategory = {
 };
 
 const fallbackTextOptions = [
-    'Graphic Designer',
-    'Visual Storyteller',
-    'Creative Designer',
-    'Digital Artist',
-    'Product Designer'
+    'Graphic designer',
+    'Visual storyteller',
+    'Conceptual thinker ',
+    'Product designer',
+    'Digital artist',
+
 ];
 
 function getTextOptions(category, initialText) {
@@ -44,7 +45,7 @@ function getTextOptions(category, initialText) {
     switch (initialText) {
         case 'Visual artist':
             return [
-                'Visual Artist',
+                'Information designer',
                 'Illustrator',
                 'Custom type creator',
                 'Web developer'
@@ -67,11 +68,11 @@ function getTextOptions(category, initialText) {
             ];
         case 'Graphic Design':
             return [
-                'Editorial Design',
-                'Art Direction',
-                'Brand Identity',
-                'Publication Design',
-                'Cultural Heritage'
+                'Editorial design',
+                'Brand identity',
+                'Product design',
+                'Campaign design',
+                'Experiential design'
             ];
         default:
             return fallbackTextOptions;
