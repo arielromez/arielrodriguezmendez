@@ -112,16 +112,29 @@ li {
     gap: var(--gap);
 }
 
-a { 
+a {
+    font: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
     text-decoration: none;
-    color: var(--color-links);
-    font-size: var(--MF);
+    color: inherit;
 }
 
 a:hover {
     color: var(--accent-color);
 }
 
+a[href^="http"]::after,
+a[href^="mailto:"]::after,
+a[href$=".pdf"]::after {
+  content: " ⤴";
+  display: inline;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+}
 
 p { 
     font-size: var(--type-body-size);

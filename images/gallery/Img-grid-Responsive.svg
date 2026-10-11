@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2144 1632"><defs><style>.cls-1,.cls-2{fill:#00f}.cls-1,.cls-3{opacity:.5}.cls-4{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:8px}</style></defs>
+<!-- <g id="img-grid"><path id="img" d="M48 48h2048v1536H48z" class="cls-1"/><path id="wide" d="M48 432h2048v768H48z" class="cls-1"/><path id="tall" d="M560 48h1024v1536H560z" class="cls-1"/></g> -->
+<g id="desktop">
+<rect width="2048" height="1536" x="48" y="48" class="cls-4" rx="20" ry="20"/><g id="wide-2" class="cls-3" data-name="wide">
+<path d="M58 58h1004v364H58z" class="cls-2"/></g><g id="wide-3" class="cls-3" data-name="wide"><path d="M1082 1210h1004v364H1082z" class="cls-2"/></g><g id="big" class="cls-3"><path d="M1082 58h1004v748H1082z" class="cls-2"/></g><g id="normal" class="cls-3"><path d="M570 442h492v364H570z" class="cls-2"/></g><g id="normal-2" class="cls-3" data-name="normal"><path d="M570 826h492v364H570z" class="cls-2"/></g><g id="normal-3" class="cls-3" data-name="normal"><path d="M1082 826h492v364h-492z" class="cls-2"/></g><g id="normal-4" class="cls-3" data-name="normal"><path d="M1594 826h492v364h-492z" class="cls-2"/></g></g>
+
+<g id="Mobile-first">
+<g id="normal-5" class="cls-3" data-name="normal">
+<path d="M58 442h492v364H58z" class="cls-2"/></g>
+<rect width="512" height="768" x="48" y="432" class="cls-4" rx="20" ry="20"/>
+</g>
+
+<g id="Pad">
+<rect width="1024.2" height="1536" x="48" y="48" class="cls-4" rx="20" ry="20"/><g id="wide-4" class="cls-3" data-name="wide"><path d="M58 1210h1004v364H58z" class="cls-2"/></g><g id="normal-6" class="cls-3" data-name="normal"><path d="M58 826h492v364H58z" class="cls-2"/></g></g></svg>

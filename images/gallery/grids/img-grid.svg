@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="img-grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1536">
-  <rect width="2048" height="1536" fill="#f7931e" opacity=".5"/>
-  <g opacity=".5">
-    <rect y="384" width="2048" height="768" fill="#f0f"/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2144 1632">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: blue;
+      }
+
+      .st0, .st3, .st2 {
+        opacity: .5;
+      }
+
+      .st4 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+
+      .st5 {
+        display: none;
+      }
+
+      .st2 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="img-grid">
+    <rect id="img" class="st0" x="48" y="48" width="2048" height="1536"/>
+    <rect id="wide" class="st0" x="48" y="432" width="2048" height="768"/>
+    <rect id="tall" class="st0" x="560" y="48" width="1024" height="1536"/>
   </g>
-  <rect x="512" width="1024" height="1536" fill="aqua" opacity=".5"/>
-  <rect width="512" height="384" fill="#ff0" opacity=".5"/>
-  <rect x="1536" y="1152" width="512" height="384" fill="#ff0" opacity=".5"/>
+  <g id="desktop">
+    <rect class="st4" x="48" y="48" width="2048" height="1536" rx="20" ry="20"/>
+    <g id="wide1" data-name="wide" class="st3">
+      <rect class="st1" x="58" y="58" width="1004" height="364"/>
+    </g>
+    <g id="wide2" data-name="wide" class="st3">
+      <rect class="st1" x="1082" y="1210" width="1004" height="364"/>
+    </g>
+    <g id="big" class="st3">
+      <rect class="st1" x="1082" y="58" width="1004" height="748"/>
+    </g>
+    <g id="normal" class="st3">
+      <rect class="st1" x="570" y="442" width="492" height="364"/>
+    </g>
+    <g id="normal1" data-name="normal" class="st3">
+      <rect class="st1" x="570" y="826" width="492" height="364"/>
+    </g>
+    <g id="normal2" data-name="normal" class="st3">
+      <rect class="st1" x="1082" y="826" width="492" height="364"/>
+    </g>
+    <g id="normal3" data-name="normal" class="st3">
+      <rect class="st1" x="1594" y="826" width="492" height="364"/>
+    </g>
+  </g>
+  <g id="Mobile-first">
+    <g id="normal4" data-name="normal" class="st3">
+      <rect class="st1" x="58" y="442" width="492" height="364"/>
+    </g>
+    <rect class="st4" x="48" y="432" width="512" height="768" rx="20" ry="20"/>
+  </g>
+  <g id="Pad">
+    <rect class="st4" x="48" y="48" width="1024.2" height="1536" rx="20" ry="20"/>
+    <g class="st5">
+      <path class="st2" d="M-21.8,778h491.9v364H-21.8v-364Z"/>
+      <path class="st2" d="M-21.8,394h491.9v364H-21.8v-364Z"/>
+      <path class="st2" d="M490.1,778h491.9v364h-491.9v-364Z"/>
+      <path class="st2" d="M490.1,394h491.9v364h-491.9v-364Z"/>
+      <path class="st2" d="M-21.8,10h1003.8v364H-21.8V10Z"/>
+      <path class="st2" d="M-21.8,1162h1003.8v364H-21.8v-364Z"/>
+    </g>
+    <g id="wide3" data-name="wide" class="st3">
+      <rect class="st1" x="58" y="1210" width="1004" height="364"/>
+    </g>
+    <g id="normal5" data-name="normal" class="st3">
+      <rect class="st1" x="58" y="826" width="492" height="364"/>
+    </g>
+  </g>
 </svg>

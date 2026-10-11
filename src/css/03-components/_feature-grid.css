@@ -104,6 +104,10 @@ figcaption.feature-caption .caption-meta {
     flex-direction: column;
     padding: var(--padding);
     gap: var(--gap);
+    font-family: inherit;
+    font-size: var(--type-body-size);
+    line-height: var(--type-body-lh);
+    letter-spacing: var(--type-body-letter-spacing);
 }
 
 .feature-text p {
@@ -111,9 +115,25 @@ figcaption.feature-caption .caption-meta {
     max-width: 40ch;
 }
 
-.feature-text a {
+.feature-text a,
+.feature-text a:link,
+.feature-text a:visited,
+.feature-text a:hover,
+.feature-text a:active {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
     color: var(--accent-color);
 }
+
+.feature-text figure {
+    margin: 0;
+    display: flex;
+    width: 30%;
+    aspect-ratio: 4 / 3;
+}
+
 
 
 /* .feature-text li {

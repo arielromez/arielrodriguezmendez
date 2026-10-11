@@ -1,7 +1,9 @@
 footer {
     font-size: var(--SF);
     line-height: var(--SF-lh);
-    padding: var(--padding);
+    min-height: calc(var(--header-height));
+    display: flex;
+    align-items: center;
 }
 
 footer .max-width-container {
