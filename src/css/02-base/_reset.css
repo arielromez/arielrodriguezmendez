@@ -129,7 +129,6 @@ a:hover {
 a[href^="http"]::after,
 a[href^="mailto:"]::after,
 a[href$=".pdf"]::after {
-  content: " ⤴";
   display: inline;
   font-size: inherit;
   line-height: inherit;
