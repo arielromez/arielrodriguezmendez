@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2144 1632">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #87878d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g id="feature-items">
+    <g id="big">
+      <rect class="cls-1" x="1082" y="58" width="1004" height="748"/>
+    </g>
+    <g id="normal6">
+      <rect class="cls-1" x="1594" y="826" width="492" height="364"/>
+    </g>
+    <g id="normal5">
+      <rect class="cls-1" x="1082" y="826" width="492" height="364"/>
+    </g>
+    <g id="normal4">
+      <rect class="cls-1" x="570" y="826" width="492" height="364"/>
+    </g>
+    <g id="normal3">
+      <rect class="cls-1" x="58" y="826" width="492" height="364"/>
+    </g>
+    <g id="normal2">
+      <rect class="cls-1" x="570" y="442" width="492" height="364"/>
+    </g>
+    <rect id="normal" class="cls-1" x="58" y="442" width="492" height="364"/>
+    <g id="wide3">
+      <rect class="cls-1" x="1082" y="1210" width="1004" height="364"/>
+    </g>
+    <rect id="wide2" class="cls-1" x="58" y="1210" width="1004" height="364"/>
+    <g id="wide">
+      <rect class="cls-1" x="58" y="58" width="1004" height="364"/>
+    </g>
+  </g>
+  <g id="devises-sizes">
+    <rect id="pad" class="cls-2" x="48" y="48" width="1024.199951171875" height="1536" rx="19.999999999999954" ry="19.999999999999954"/>
+    <rect id="phone" class="cls-2" x="48" y="432" width="512" height="768" rx="19.999999999999972" ry="19.999999999999972"/>
+    <rect id="desktop" class="cls-2" x="48" y="48" width="2048" height="1536" rx="19.999999999999986" ry="19.999999999999986"/>
+  </g>
+</svg>

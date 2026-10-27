@@ -1,5 +1,4 @@
 .header {
-    background-color: var(--bg-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +15,8 @@
 }
 
 .header-content {
+    background: var(--bg-color);
+    backdrop-filter: var(--blur-filter);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,8 +24,10 @@
     width: 100%;
     margin: 0 auto;
     padding: var(--padding);
-    border: var(--border);
     transition: height 0.35s ease;
+    border-bottom-left-radius: calc(var(--border-radius) + var(--padding));
+    border-bottom-right-radius: calc(var(--border-radius) + var(--padding));
+    box-shadow: var(--box-shadow);
 }
 
 .header--home:not(.header-expanded) .header-content {
@@ -69,16 +72,19 @@
     padding: 0;
     list-style: none;
     border-radius: calc(var(--padding) + 0.5rem);
-    background:
+    /* background:
         linear-gradient(var(--bg-color), var(--bg-color)) padding-box,
-        var(--border-gradient) border-box;
+        var(--border-gradient) border-box; */
 }
 
-.nav-menu li {
-    border-radius: 999px;
-    border: var(--border);
-    padding: var(--padding);
-    backdrop-filter: var(--blur-filter);
+.nav-menu li > .ui-button {
+    width: 6rem;
+    min-width: 6rem;    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
 }
 
 .menu-toggle {
@@ -126,8 +132,10 @@
 @media (max-width: 600px) {
     .header-content {
         font-size: var(--MF);
+        flex-wrap: wrap;
     }
 
+    /* Dropdown menu (re-enable together with the toggle button in the HTML)
     .menu-toggle {
         display: block;
     }
@@ -148,4 +156,5 @@
         border: var(--border);
         backdrop-filter: var(--blur-filter);
     }
+    */
 }

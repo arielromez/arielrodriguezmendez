@@ -1,21 +1,17 @@
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    gap: var(--gap);
-    row-gap: calc(var(--gap) * 5);
-    padding: var(--padding);   
-}
-
 .project-grid .feature-item {
     width: 100%;
     justify-self: stretch;
-    border-radius: 0;
     background: none;
     border-radius: var(--border-radius);
+    background-image: linear-gradient(135deg, rgba(255,255,255,0.24), rgba(128,128,128,0.12), rgba(255,255,255,0.24));
 
+}
+
+.project-grid .feature-item.tall > img {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    object-fit: cover;
 }
 
 .project-grid > * {
@@ -25,7 +21,8 @@
 
 @media (max-width: 600px) {
     .project-grid {
-        grid-template-columns: minmax(0, 1fr);
+        --grid-columns: var(--portfolio-grid-columns-sm);
+        grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
     }
 
     .project-grid .feature-item {
@@ -36,7 +33,8 @@
 
 @media (min-width: 601px) and (max-width: 1024px) {
     .project-grid {
-        grid-template-columns: 1fr;
+        --grid-columns: var(--portfolio-grid-columns-md);
+        grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
     }
 
     .project-grid > p,
@@ -47,7 +45,7 @@
     .project-grid .feature-item.wide,
     .project-grid .feature-item.big,
     .project-grid .feature-item.tall {
-        grid-column: span 1;
+        grid-column: span 2;
         grid-row: span 1;
     }
 }

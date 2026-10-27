@@ -22,16 +22,15 @@
             </h2>
         </div>    
             <nav class="header-nav" aria-label="Main Navigation">
-                <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <!-- <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
                     <span></span>
                     <span></span>
-                
-                </button>
+            </button> -->
                 <ul class="nav-menu">
-                    <li class="ui-button"><a href="../index.html#work" aria-label="Go to work section" title="Work">Work</a></li>
-                    <li class="ui-button current-page" aria-current="page">
+                    <li ><a class="ui-button" href="../index.html#work" aria-label="Go to work section" title="Work">Work</a></li>
+                    <!-- <li class="ui-button current-page" aria-current="page">
                         <a href="info.html" aria-label="More information" title="More information">About</a>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
     </header>
@@ -46,18 +45,11 @@
     </header> -->
     <main>
         <section class="split-layout" aria-labelledby="about-title">
-            <div class="split-layout__media">
-                <img
-                    class="split-layout__image"
-                    src="../images/gallery/me/with-headphones-and-bluesky.webp"
-                    alt="Ariel Rodriguez Mendez"
-                >
-            </div>
             <article class="split-layout__content">
                 <div class="feature-text">
-                    <h1 id="about-title">About me</h1>
+                    <h1 id="about-title">About</h1>
                     <p id="about-summary" class="body-size">
-                   I’m a Cuban-born graphic designer currently living in Florida, United States.
+                   I'm a Cuban-born visual communication designer currently living in Florida, <span class="nowrap">United States</span>.
                     </p>
                     <p class="body-size">As an independent designer, I have collaborated with publishers, arts institutions, and design and architecture studios. My work has included art direction for publications, as well as environmental graphics and information-design projects for museums.</p>
                 </div>
@@ -75,13 +67,30 @@
                 <a href="mailto:helloarielrodriguezmendez@gmail.com">Email</a>
             </div>
             </article>
+            <div class="split-layout__media">
+                <img
+                    class="split-layout__image"
+                    src="../images/gallery/me/with-headphones-and-bluesky.webp"
+                    alt="Ariel Rodriguez Mendez"
+                >
+            </div>
         </section>
         <section id="about-website" class="project-grid">
-            <div class="feature-text">
-               <h2 id="about-website-title" class="subheading">About this website</h2>
-                <p >I built it on a single core premise: delivering an identical visual experience across desktop and mobile with minimal design and code. It stands as a demonstration of my frontend skills and lightweight UI/UX philosophy.</p>
-
-                <ul>
+            
+            <!-- <div class="feature-item">
+                <img
+                    class="feature-item__image"
+                    src="../images/gallery/grids/feature-grid-responsive.svg"
+                    alt="Work illustration"
+                >
+            </div> -->
+        </section>            
+    </main>
+    <footer>
+        <div class="max-width-container feature-text">
+            <h2 id="about-website-title" class="caption">About this website</h2>
+                <p class="caption">I built it on a single core premise: delivering an identical visual experience across desktop and mobile with minimal design and code. It stands as a demonstration of my frontend skills and lightweight UI/UX philosophy.</p>
+                <!-- <ul>
                     <li>
                         <h3>Workflow</h3><br>
                         <p class="caption">Visual Design → Responsive Code</p>
@@ -94,19 +103,7 @@
                         <h3>Tech Stack</h3><br>
                         <p class="caption">Semantic HTML5, Custom CSS3 <span class="nowrap">and Vanilla JS.</span></p>
                     </li>
-                </ul>
-            </div>
-            <div class="feature-item">
-                <img
-                    class="feature-item__image"
-                    src="../images/gallery/Img-grid-Responsive.svg"
-                    alt="Work illustration"
-                >
-            </div>
-        </section>            
-    </main>
-    <footer>
-        <div class="max-width-container">
+                </ul> -->
             <p class="caption">&copy; <span id="current-year"></span> <span class="nowrap">Ariel Rodriguez Mendez.</span></p>
         </div>
     </footer>

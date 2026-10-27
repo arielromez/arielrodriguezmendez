@@ -1,14 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2144 1632"><defs><style>.cls-1,.cls-2{fill:#00f}.cls-1,.cls-3{opacity:.5}.cls-4{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:8px}</style></defs>
-<!-- <g id="img-grid"><path id="img" d="M48 48h2048v1536H48z" class="cls-1"/><path id="wide" d="M48 432h2048v768H48z" class="cls-1"/><path id="tall" d="M560 48h1024v1536H560z" class="cls-1"/></g> -->
-<g id="desktop">
-<rect width="2048" height="1536" x="48" y="48" class="cls-4" rx="20" ry="20"/><g id="wide-2" class="cls-3" data-name="wide">
-<path d="M58 58h1004v364H58z" class="cls-2"/></g><g id="wide-3" class="cls-3" data-name="wide"><path d="M1082 1210h1004v364H1082z" class="cls-2"/></g><g id="big" class="cls-3"><path d="M1082 58h1004v748H1082z" class="cls-2"/></g><g id="normal" class="cls-3"><path d="M570 442h492v364H570z" class="cls-2"/></g><g id="normal-2" class="cls-3" data-name="normal"><path d="M570 826h492v364H570z" class="cls-2"/></g><g id="normal-3" class="cls-3" data-name="normal"><path d="M1082 826h492v364h-492z" class="cls-2"/></g><g id="normal-4" class="cls-3" data-name="normal"><path d="M1594 826h492v364h-492z" class="cls-2"/></g></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2144 1632">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #87878d;
+      }
 
-<g id="Mobile-first">
-<g id="normal-5" class="cls-3" data-name="normal">
-<path d="M58 442h492v364H58z" class="cls-2"/></g>
-<rect width="512" height="768" x="48" y="432" class="cls-4" rx="20" ry="20"/>
-</g>
+      .st1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
 
-<g id="Pad">
-<rect width="1024.2" height="1536" x="48" y="48" class="cls-4" rx="20" ry="20"/><g id="wide-4" class="cls-3" data-name="wide"><path d="M58 1210h1004v364H58z" class="cls-2"/></g><g id="normal-6" class="cls-3" data-name="normal"><path d="M58 826h492v364H58z" class="cls-2"/></g></g></svg>
+      .st2 {
+        display: none;
+      }
+
+      .st3 {
+        fill: blue;
+        isolation: isolate;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3">
+    <g id="img-grid" class="st2">
+      <rect id="img" class="st3" x="48" y="48" width="2048" height="1536"/>
+      <rect id="wide" class="st3" x="48" y="432" width="2048" height="768"/>
+      <rect id="tall" class="st3" x="560" y="48" width="1024" height="1536"/>
+    </g>
+  </g>
+  <g id="feature-items">
+    <g id="desktop">
+      <g>
+        <g id="wide1">
+          <rect class="st0" x="58" y="58" width="1004" height="364"/>
+        </g>
+        <g id="wide2">
+          <rect class="st0" x="1082" y="1210" width="1004" height="364"/>
+        </g>
+        <g id="big">
+          <rect class="st0" x="1082" y="58" width="1004" height="748"/>
+        </g>
+        <g id="normal">
+          <rect class="st0" x="570" y="442" width="492" height="364"/>
+        </g>
+        <g id="normal1">
+          <rect class="st0" x="570" y="826" width="492" height="364"/>
+        </g>
+        <g id="normal2">
+          <rect class="st0" x="1082" y="826" width="492" height="364"/>
+        </g>
+        <g id="normal3">
+          <rect class="st0" x="1594" y="826" width="492" height="364"/>
+        </g>
+      </g>
+    </g>
+    <g id="Mobile-first">
+      <g id="normal4">
+        <rect class="st0" x="58" y="442" width="492" height="364"/>
+      </g>
+    </g>
+    <g id="Pad">
+      <g>
+        <g id="wide3">
+          <rect class="st0" x="58" y="1210" width="1004" height="364"/>
+        </g>
+        <g id="normal5">
+          <rect class="st0" x="58" y="826" width="492" height="364"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="devises-sizes">
+    <rect class="st1" x="48" y="48" width="1024.2" height="1536" rx="20" ry="20"/>
+    <rect class="st1" x="48" y="432" width="512" height="768" rx="20" ry="20"/>
+    <rect class="st1" x="48" y="48" width="2048" height="1536" rx="20" ry="20"/>
+  </g>
+</svg>

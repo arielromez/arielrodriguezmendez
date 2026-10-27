@@ -96,6 +96,15 @@ h3 {
     color: var(--text-color-alt);
 }
 
+.body-text,
+.body-size {
+    font-family: var(--type-body-font);
+    font-size: var(--type-body-size);
+    line-height: var(--type-body-lh);
+    letter-spacing: var(--type-body-letter-spacing);
+    color: var(--text-color);
+}
+
 ul, li {
     list-style: none;
 }
@@ -105,14 +114,13 @@ ul {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    padding: var(--padding) 0;
 }
 
 li {
     gap: var(--gap);
 }
 
-a {
+a { 
     font: inherit;
     font-family: inherit;
     font-size: inherit;
@@ -123,16 +131,26 @@ a {
 }
 
 a:hover {
-    color: var(--accent-color);
+    color: var(--accent-color);  
 }
 
 a[href^="http"]::after,
 a[href^="mailto:"]::after,
 a[href$=".pdf"]::after {
+  content: " →";
   display: inline;
   font-size: inherit;
   line-height: inherit;
   vertical-align: baseline;
+}
+
+a[href^="http"]:hover::after,
+a[href^="mailto:"]:hover::after,
+a[href$=".pdf"]:hover::after,
+a[href^="http"]:focus-visible::after,
+a[href^="mailto:"]:focus-visible::after,
+a[href$=".pdf"]:focus-visible::after {
+  content: " ↗";
 }
 
 p { 

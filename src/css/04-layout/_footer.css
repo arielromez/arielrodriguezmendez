@@ -4,10 +4,10 @@ footer {
     min-height: calc(var(--header-height));
     display: flex;
     align-items: center;
+    padding: calc(var(--padding) + var(--gap)) 0;
 }
 
 footer .max-width-container {
-    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     padding-inline: var(--padding);

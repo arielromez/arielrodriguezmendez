@@ -28,6 +28,7 @@
 
       .cls-7 {
         fill: #febe10;
+        stroke: #febe10;
       }
     </style>
     <linearGradient id="linear-gradient" x1="816.84" y1="1121.52" x2="1231.15" y2="1121.52" gradientUnits="userSpaceOnUse">

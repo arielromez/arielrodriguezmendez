@@ -1,7 +1,7 @@
 button {
     background-color: transparent;
     font-size: var(--MF);
-    border: 0.15rem solid transparent;
+    border: var(--border);
     padding: var(--padding);
     border-radius: var(--border-radius);
     cursor: pointer;
@@ -17,41 +17,45 @@ button:hover {
 button a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 .ui-button {
+    color: var(--accent-color);
     font-family: var(--type-ui-font);
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    min-height: 2.75rem;
-    padding: 0.75rem 1.25rem;
-    border-radius: var(--border-radius);
-    border: 0.15rem solid transparent;
-    background: transparent;
     font-size: var(--type-ui-size);
     line-height: var(--type-ui-lh);
     letter-spacing: var(--type-ui-letter-spacing);
-    text-transform: uppercase;
     font-weight: 600;
+
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: 0.75rem 1.25rem;
+
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color);
+    backdrop-filter: var(--blur-filter);
+    /* background-image: linear-gradient(var(--ui-gradient-angle), var(--ui-gradient-stops)); */
+
+    text-transform: uppercase;
     transition: all 0.3s ease;
 }
 
-.ui-button:hover {
-    animation: transform 0.6s ease-in-out forwards;
+.ui-button:hover,
+.ui-button:focus-visible {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    animation: ui-gradient-spin var(--ui-gradient-duration) linear infinite;
 }
 
-/* .ui-button.current-page {
-    text-decoration: line-through;
-    text-decoration-thickness: 1rem;
-    text-decoration-color: var(--accent-color);
-} */
-
-.ui-button.current-page a {
-  text-decoration: line-through;
-  text-decoration-thickness: 0.1em;
-
+@keyframes ui-gradient-spin {
+    to {
+        --ui-gradient-angle: 495deg;
+    }
 }
 
 .ui-text {
