@@ -31,9 +31,9 @@ const textOptionsByCategory = {
 const fallbackTextOptions = [
     'Graphic designer',
     'Visual storyteller',
+    'Art director',
     'Conceptual thinker ',
     'Product designer',
-    'Digital artist',
 
 ];
 
